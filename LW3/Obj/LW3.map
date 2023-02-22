@@ -1,5 +1,5 @@
 ﻿ VIP Linker 7.5.
-  Module 'C:\Users\jacqu\OneDrive\Documents\Visual Prolog Projects\LW3\Exe\LW3.exe' Map. Wed Feb 22 16:09:10 2023
+  Module 'C:\Users\jacqu\OneDrive\Documents\Visual Prolog Projects\LW3\Exe\LW3.exe' Map. Wed Feb 22 17:15:18 2023
 
 Frame 001000   Size 042B10.  Name=<   .text>, 	Chars=60000020h. [CER]
 Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
@@ -3362,7 +3362,7 @@ Frame 001000   Size 042B10.  Name=<   .text>, 	Chars=60000020h. [CER]
 01:00042ADC ?ôèëüì_ïî_êèíî@main@@SAXPBUêîä_êò@@@Z  (Idle)
 01:00042BAC ?êèíîòåàòðû_êèíîôèëüì@main@@SAXPBUêîä_êò@@PBUêîä_êô@@@Z  (Idle)
 01:00042D64 ?ôèëüì_ñåðè@main@@SAXPBU÷èñëî_ñåðèé@@0AAU2@@Z  (Idle)
-01:00042DA4 ?áîëü@main@@SAXPBUêîä_êô@@@Z  (Idle)
+01:00042DA4 ?áîëüøîå@main@@SAXPBUêîä_êô@@@Z  (Idle)
 01:00042F98 ?run@main@@SAXXZ 
 01:00043244 ?_class_facts_initializer@main@@SGXXZ 
 01:000437CC ?êèíîòåàòðû@main@@SAXAAUêîä_êò@@@Z 
