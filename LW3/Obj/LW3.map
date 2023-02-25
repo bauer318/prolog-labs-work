@@ -1,8 +1,8 @@
 ﻿ VIP Linker 7.5.
-  Module 'C:\Users\jacqu\OneDrive\Documents\Visual Prolog Projects\LW3\Exe\LW3.exe' Map. Wed Feb 22 17:15:18 2023
+  Module 'C:\Users\jacqu\OneDrive\Documents\Visual Prolog Projects\LW3\Exe\LW3.exe' Map. Sat Feb 25 15:36:43 2023
 
-Frame 001000   Size 042B10.  Name=<   .text>, 	Chars=60000020h. [CER]
-Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+Frame 001000   Size 042B70.  Name=<   .text>, 	Chars=60000020h. [CER]
+Frame 044000   Size 02F880.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 Frame 074000   Size 000170.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 Frame 075000   Size 000320.  Name=<  PRODBG>, 	Chars=40000040h. [IR]
 Frame 076000   Size 0006E0.  Name=<  VIPini>, 	Chars=40000040h. [IR]
@@ -13,8 +13,8 @@ Frame 07A000   Size 000060.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
 
 	--- S e g m e n t s : ---
 
-Frame 001000   Size 042B10.  Name=<   .text>, 	Chars=60000020h. [CER]
-001000:000000 042930   .text::CODE::<no group> F=4
+Frame 001000   Size 042B70.  Name=<   .text>, 	Chars=60000020h. [CER]
+001000:000000 042990   .text::CODE::<no group> F=4
    001000   Module 'Obj\exe.3A8A8F5C.obj'
    001310   Module 'Obj\binary.9C7C16C6.obj'
    006290   Module 'Obj\boolean.CB308F06.obj'
@@ -62,12 +62,12 @@ Frame 001000   Size 042B10.  Name=<   .text>, 	Chars=60000020h. [CER]
    041410   Module 'Obj\time_api.21FCC41B.obj'
    042810   Module 'Obj\windowsapi.901E9509.obj'
    042AC0   Module 'Obj\main.A22FE9BF.obj'
-001000:042930 0001E0   .text$mn::CODE::<no group> F=4
-   043930   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj'
-   0439A0   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj'
-   043AF0   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj'
+001000:042990 0001E0   .text$mn::CODE::<no group> F=4
+   043990   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj'
+   043A00   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj'
+   043B50   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj'
 
-Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+Frame 044000   Size 02F880.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 044000:000000 004570   VIPConst::VIPConst::.rdata F=4
    044000   Module 'Obj\binary.9C7C16C6.obj'
    044250   Module 'Obj\exception.544F7452.obj'
@@ -131,7 +131,7 @@ Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
    04D260   Module 'Obj\core.4BC2D97D.obj'
    04D320   Module 'Obj\exception.544F7452.obj'
    04D8A0   Module 'Obj\filesystem.57D9C483.obj'
-044000:009A70 00B1D0   .rdata::.rdata::.rdata F=4
+044000:009A70 00B200   .rdata::.rdata::.rdata F=4
    04DA70   Module 'Obj\exe.3A8A8F5C.obj'
    04DB10   Module 'Obj\binary.9C7C16C6.obj'
    04E190   Module 'Obj\boolean.CB308F06.obj'
@@ -182,56 +182,56 @@ Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
    0581D0   Module 'Obj\time_api.21FCC41B.obj'
    058700   Module 'Obj\windowsapi.901E9509.obj'
    0587A0   Module 'Obj\main.A22FE9BF.obj'
-   058B90   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj'
-044000:014C40 01AB30   VIPClass::VIPClass::.rdata F=4
-   058C40   Module 'Obj\exe.3A8A8F5C.obj'
-   058D30   Module 'Obj\binary.9C7C16C6.obj'
-   059850   Module 'Obj\boolean.CB308F06.obj'
-   0598C0   Module 'Obj\redblackset.314226AB.obj'
-   059B20   Module 'Obj\redblacktree.C0378524.obj'
-   059F40   Module 'Obj\collectionsupport.6DAD372D.obj'
-   05A190   Module 'Obj\arraym_inline.5CB777DB.obj'
-   05B260   Module 'Obj\mapm_redblack.D48B3F53.obj'
-   05BA60   Module 'Obj\setm_redblack.F3ED8D4F.obj'
-   05BF60   Module 'Obj\collectionmsupport.662A7565.obj'
-   05C270   Module 'Obj\mapmsupport.59EA0039.obj'
-   05C6D0   Module 'Obj\console.043C10C8.obj'
-   05D4D0   Module 'Obj\core.4BC2D97D.obj'
-   05E9C0   Module 'Obj\event.35BDD536.obj'
-   064CA0   Module 'Obj\exception.544F7452.obj'
-   065370   Module 'Obj\exceptiondump.174B23B9.obj'
-   065410   Module 'Obj\filesystem.57D9C483.obj'
-   066D00   Module 'Obj\list.1520BD2B.obj'
-   067620   Module 'Obj\math.724D21D5.obj'
-   0677B0   Module 'Obj\memory.9BD3BF38.obj'
-   0684B0   Module 'Obj\namedvalue.187E0B91.obj'
-   068530   Module 'Obj\programcontrol.5D08C78A.obj'
-   068640   Module 'Obj\reflection.0F000252.obj'
-   068F60   Module 'Obj\registry.88C8A89A.obj'
-   069250   Module 'Obj\std.1C7A9F9B.obj'
-   0692A0   Module 'Obj\inputstreamsupport.7C36EDAA.obj'
-   0694E0   Module 'Obj\outputstreamsupport.024B29AC.obj'
-   0697A0   Module 'Obj\stream.99784C5B.obj'
-   069E20   Module 'Obj\string.B0A67F43.obj'
-   06B000   Module 'Obj\string8.302F7782.obj'
-   06B070   Module 'Obj\varm.17B5C45B.obj'
-   06BFE0   Module 'Obj\vpidomains.CE78C30C.obj'
-   06D5D0   Module 'Obj\console_api.885E7959.obj'
-   06D9F0   Module 'Obj\exe_api.A0303A40.obj'
-   06DC50   Module 'Obj\filesystem_api.1C9354BA.obj'
-   06EEE0   Module 'Obj\gui_api.5B4BA4CC.obj'
-   070DE0   Module 'Obj\locale_api.25A9E29D.obj'
-   070FE0   Module 'Obj\memory_api.072B3D5C.obj'
-   071210   Module 'Obj\multithread_api.6DC4E6F9.obj'
-   0717E0   Module 'Obj\registry_api.0E78C5E3.obj'
-   071980   Module 'Obj\runtime_api.0E79B0CD.obj'
-   071AD0   Module 'Obj\shell_api.D9156D40.obj'
-   0722F0   Module 'Obj\string_api.5221196E.obj'
-   072390   Module 'Obj\string8_api.41F368A6.obj'
-   0724C0   Module 'Obj\systeminformation_api.2DB6162F.obj'
-   072AA0   Module 'Obj\time_api.21FCC41B.obj'
-   072DD0   Module 'Obj\windowsapi.901E9509.obj'
-   072F80   Module 'Obj\main.A22FE9BF.obj'
+   058BC0   Module '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj'
+044000:014C70 01AC10   VIPClass::VIPClass::.rdata F=4
+   058C70   Module 'Obj\exe.3A8A8F5C.obj'
+   058D60   Module 'Obj\binary.9C7C16C6.obj'
+   059880   Module 'Obj\boolean.CB308F06.obj'
+   0598F0   Module 'Obj\redblackset.314226AB.obj'
+   059B50   Module 'Obj\redblacktree.C0378524.obj'
+   059F70   Module 'Obj\collectionsupport.6DAD372D.obj'
+   05A1C0   Module 'Obj\arraym_inline.5CB777DB.obj'
+   05B290   Module 'Obj\mapm_redblack.D48B3F53.obj'
+   05BA90   Module 'Obj\setm_redblack.F3ED8D4F.obj'
+   05BF90   Module 'Obj\collectionmsupport.662A7565.obj'
+   05C2A0   Module 'Obj\mapmsupport.59EA0039.obj'
+   05C700   Module 'Obj\console.043C10C8.obj'
+   05D500   Module 'Obj\core.4BC2D97D.obj'
+   05E9F0   Module 'Obj\event.35BDD536.obj'
+   064CD0   Module 'Obj\exception.544F7452.obj'
+   0653A0   Module 'Obj\exceptiondump.174B23B9.obj'
+   065440   Module 'Obj\filesystem.57D9C483.obj'
+   066D30   Module 'Obj\list.1520BD2B.obj'
+   067650   Module 'Obj\math.724D21D5.obj'
+   0677E0   Module 'Obj\memory.9BD3BF38.obj'
+   0684E0   Module 'Obj\namedvalue.187E0B91.obj'
+   068560   Module 'Obj\programcontrol.5D08C78A.obj'
+   068670   Module 'Obj\reflection.0F000252.obj'
+   068F90   Module 'Obj\registry.88C8A89A.obj'
+   069280   Module 'Obj\std.1C7A9F9B.obj'
+   0692D0   Module 'Obj\inputstreamsupport.7C36EDAA.obj'
+   069510   Module 'Obj\outputstreamsupport.024B29AC.obj'
+   0697D0   Module 'Obj\stream.99784C5B.obj'
+   069E50   Module 'Obj\string.B0A67F43.obj'
+   06B030   Module 'Obj\string8.302F7782.obj'
+   06B0A0   Module 'Obj\varm.17B5C45B.obj'
+   06C010   Module 'Obj\vpidomains.CE78C30C.obj'
+   06D600   Module 'Obj\console_api.885E7959.obj'
+   06DA20   Module 'Obj\exe_api.A0303A40.obj'
+   06DC80   Module 'Obj\filesystem_api.1C9354BA.obj'
+   06EF10   Module 'Obj\gui_api.5B4BA4CC.obj'
+   070E10   Module 'Obj\locale_api.25A9E29D.obj'
+   071010   Module 'Obj\memory_api.072B3D5C.obj'
+   071240   Module 'Obj\multithread_api.6DC4E6F9.obj'
+   071810   Module 'Obj\registry_api.0E78C5E3.obj'
+   0719B0   Module 'Obj\runtime_api.0E79B0CD.obj'
+   071B00   Module 'Obj\shell_api.D9156D40.obj'
+   072320   Module 'Obj\string_api.5221196E.obj'
+   0723C0   Module 'Obj\string8_api.41F368A6.obj'
+   0724F0   Module 'Obj\systeminformation_api.2DB6162F.obj'
+   072AD0   Module 'Obj\time_api.21FCC41B.obj'
+   072E00   Module 'Obj\windowsapi.901E9509.obj'
+   072FB0   Module 'Obj\main.A22FE9BF.obj'
 
 Frame 074000   Size 000170.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 074000:000000 00015C   .data::DATA::DGROUP F=4
@@ -544,7 +544,7 @@ Frame 079000   Size 000DD0.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
    079DC4   Module 'Obj\main.A22FE9BF.obj'
 
 Frame 07A000   Size 000060.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
-07A000:000000 000054   .gcroot::.gcroot::.gcroot F=4
+07A000:000000 00005C   .gcroot::.gcroot::.gcroot F=4
    07A000   Module 'Obj\exe.3A8A8F5C.obj'
    07A004   Module 'Obj\console.043C10C8.obj'
    07A010   Module 'Obj\stream.99784C5B.obj'
@@ -553,8 +553,8 @@ Frame 07A000   Size 000060.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
    07A024   Module 'Obj\main.A22FE9BF.obj'
 
 	     ------- Names by value Map ---------
-Frame 001000   Size 042B10.  Name=<   .text>, 	Chars=60000020h. [CER]
-001000:000000 042930   .text::CODE::<no group> F=4
+Frame 001000   Size 042B70.  Name=<   .text>, 	Chars=60000020h. [CER]
+001000:000000 042990   .text::CODE::<no group> F=4
 --- From 'Obj\exe.3A8A8F5C.obj'
 01:00001000 ?run@mainExe@@SAXX@Z  (Idle)
 --- From 'Obj\console.043C10C8.obj'
@@ -3359,25 +3359,30 @@ Frame 001000   Size 042B10.  Name=<   .text>, 	Chars=60000020h. [CER]
 --- From '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj'
 01:00042AC0 _PROLOG_Goal 
 --- From 'Obj\main.A22FE9BF.obj'
-01:00042ADC ?ôèëüì_ïî_êèíî@main@@SAXPBUêîä_êò@@@Z  (Idle)
-01:00042BAC ?êèíîòåàòðû_êèíîôèëüì@main@@SAXPBUêîä_êò@@PBUêîä_êô@@@Z  (Idle)
-01:00042D64 ?ôèëüì_ñåðè@main@@SAXPBU÷èñëî_ñåðèé@@0AAU2@@Z  (Idle)
-01:00042DA4 ?áîëüøîå@main@@SAXPBUêîä_êô@@@Z  (Idle)
-01:00042F98 ?run@main@@SAXXZ 
-01:00043244 ?_class_facts_initializer@main@@SGXXZ 
-01:000437CC ?êèíîòåàòðû@main@@SAXAAUêîä_êò@@@Z 
-01:000438D0 ?ôèëüì_ïî_ñåðèé@main@@SAXPBU÷èñëî_ñåðèé@@AAUíàçâàíèå@@@Z 
-001000:042930 0001E0   .text$mn::CODE::<no group> F=4
+01:00042ADC ?âûâîä_íàçâàíèå_êèíîòåàòðà_ïî_ID@main@@SAXPBUêîä_êò@@@Z  (Idle)
+01:00042B80 ?çàïèñü_êèíîòåàòð_ïîêàçûâàþùèå@main@@SAXPBUêîä_êò@@@Z  (Idle)
+01:00042BE8 ?âûâîä_êèíîôèëüì_ïî_êèíîòåàòðó@main@@SAXPBUêîä_êò@@@Z  (Idle)
+01:00042CC8 ?çàïèñü_ID_ôèëüìîâ_îäíîãî_êèíîòåàòðà@main@@SAXPBUêîä_êô@@@Z  (Idle)
+01:00042D30 ?çàïèñü_ôèëüìîâ_îïðåäåëåííîãî_êèíîòåàòðà@main@@SAXPBUêîä_êò@@@Z  (Idle)
+01:00042DD8 ?âûâîä_íàçâàíèå_ôèëüìà_ïî_ID@main@@SAXPBUêîä_êô@@@Z  (Idle)
+01:00042E5C ?âû÷èñëèòü_îáùóþ_âûðó÷êó@main@@SAXPBUêîä_êô@@@Z  (Idle)
+01:00042F44 ?âûâîä_îáùåé_âûðó÷êè_ïî_ôèëüìó_îïðåäåëåííîãî_êèíîòåàòðà@main@@SAXXZ  (Idle)
+01:0004301C ?íàèáîëüøåå@main@@SAXPBU÷èñëî_ñåðèé@@0AAU2@@Z  (Idle)
+01:0004305C ?çàïèñü_áîëüøåãî_÷èñëà_ñåðèé@main@@SAXXZ  (Idle)
+01:00043148 ?âûâîä_ôèëüì_ñ_íàèáîëüøèì_÷èñëîì_ñåðèé@main@@SAXPBU÷èñëî_ñåðèé@@@Z  (Idle)
+01:000431D8 ?run@main@@SAXXZ 
+01:000433B0 ?_class_facts_initializer@main@@SGXXZ 
+001000:042990 0001E0   .text$mn::CODE::<no group> F=4
 --- From '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj'
-01:00043930 _VIPStartUp@0  (Idle)
+01:00043990 _VIPStartUp@0  (Idle)
 --- From '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj'
-01:000439A0 ?VIPDllGetHandleModule@RunTime@VIP@@YAPAXXZ 
-01:000439B0 ?tryCallHook@VIPDllHook@RunTime@VIP@@QBEHPAXK0@Z 
-01:000439F0 _VIPDllMain@12  (Idle)
-01:00043AD0 _VIPSetDllHook@4  (Idle)
+01:00043A00 ?VIPDllGetHandleModule@RunTime@VIP@@YAPAXXZ 
+01:00043A10 ?tryCallHook@VIPDllHook@RunTime@VIP@@QBEHPAXK0@Z 
+01:00043A50 _VIPDllMain@12  (Idle)
+01:00043B30 _VIPSetDllHook@4  (Idle)
 --- From '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj'
-01:00043AF0 ?VIP_PE_Dialog@@YAXXZ 
-Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+01:00043B50 ?VIP_PE_Dialog@@YAXXZ 
+Frame 044000   Size 02F880.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 044000:000000 004570   VIPConst::VIPConst::.rdata F=4
 --- From 'Obj\binary.9C7C16C6.obj'
 02:00044090 $invalidCompressionFormat$binary_exception_class$constant$ 
@@ -4268,7 +4273,7 @@ Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 02:0004D960 $iStream_native$_global_class$0$domain$ 
 02:0004D9A0 interface$iUnknown 
 02:0004DA40 $iUnknown$_global_class$0$domain$ 
-044000:009A70 00B1D0   .rdata::.rdata::.rdata F=4
+044000:009A70 00B200   .rdata::.rdata::.rdata F=4
 --- From 'Obj\exception.544F7452.obj'
 02:0004F938 v$$_getTrapInformationObject@exception@@SAXPBUtraceId@@PAPAVtrapInformationObject@@@@Z$externalexception$1$core::exception  (Idle)
 --- From 'Obj\runtime_api.0E79B0CD.obj'
@@ -4278,599 +4283,599 @@ Frame 044000   Size 02F770.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 02:00056FEC v$$_determineOSV6@runtime_api@@SAXIIPBUunsigned16@@PAPB_W@Z$edition$1$::string  (Idle)
 02:00056FF0 v$$_determineOSV6@runtime_api@@SAXIIPBUunsigned16@@PAPB_W@Z$edition$2$::string  (Idle)
 --- From '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj'
-02:00058B58 _VIPStartOfDictionary 
+02:00058B88 _VIPStartOfDictionary 
 --- From '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj'
-02:00058B90 ??_C@_0L@DLNDOIBH@Attention?$CB?$AA@ 
-02:00058BA0 ??_C@_0JO@IKLJBBEK@This?5application?5is?5created?5with@ 
-044000:014C40 01AB30   VIPClass::VIPClass::.rdata F=4
+02:00058BC0 ??_C@_0L@DLNDOIBH@Attention?$CB?$AA@ 
+02:00058BD0 ??_C@_0JO@IKLJBBEK@This?5application?5is?5created?5with@ 
+044000:014C70 01AC10   VIPClass::VIPClass::.rdata F=4
 --- From 'Obj\exe.3A8A8F5C.obj'
-02:00058C40 class$mainExe 
+02:00058C70 class$mainExe 
 --- From 'Obj\binary.9C7C16C6.obj'
-02:00058D30 class$outputStream_binary 
-02:00058FF8 class$outputStream_binary$vtable$  (Idle)
-02:00059250 class$inputStream_binary 
-02:00059568 class$inputStream_binary$vtable$  (Idle)
-02:00059760 class$binary_exception 
-02:000597F0 class$binary 
+02:00058D60 class$outputStream_binary 
+02:00059028 class$outputStream_binary$vtable$  (Idle)
+02:00059280 class$inputStream_binary 
+02:00059598 class$inputStream_binary$vtable$  (Idle)
+02:00059790 class$binary_exception 
+02:00059820 class$binary 
 --- From 'Obj\boolean.CB308F06.obj'
-02:00059850 class$boolean 
+02:00059880 class$boolean 
 --- From 'Obj\redblackset.314226AB.obj'
-02:000598C0 class$redBlackSet 
+02:000598F0 class$redBlackSet 
 --- From 'Obj\setm_redblack.F3ED8D4F.obj'
-02:00059900 $set$redBlackSet_class$1$domain$ 
+02:00059930 $set$redBlackSet_class$1$domain$ 
 --- From 'Obj\redblackset.314226AB.obj'
-02:00059974 $setRep$redBlackSet_class$1$domain$ 
+02:000599A4 $setRep$redBlackSet_class$1$domain$ 
 --- From 'Obj\redblacktree.C0378524.obj'
-02:00059B20 class$redBlackTree 
+02:00059B50 class$redBlackTree 
 --- From 'Obj\mapm_redblack.D48B3F53.obj'
-02:00059B6C $tree$redBlackTree_class$2$domain$ 
+02:00059B9C $tree$redBlackTree_class$2$domain$ 
 --- From 'Obj\redblacktree.C0378524.obj'
-02:00059BE8 $treeRep$redBlackTree_class$2$domain$ 
-02:00059C26 $uniqueKey$redBlackTree_class$0$domain$ 
-02:00059C5C $treeProperty$redBlackTree_class$1$domain$ 
+02:00059C18 $treeRep$redBlackTree_class$2$domain$ 
+02:00059C56 $uniqueKey$redBlackTree_class$0$domain$ 
+02:00059C8C $treeProperty$redBlackTree_class$1$domain$ 
 --- From 'Obj\collectionmsupport.662A7565.obj'
-02:00059F40 class$collectionSupport\collectionSupport{@Type} 
-02:00059FE8 class$collectionSupport\collectionSupport{@Type}$vtable$ 
+02:00059F70 class$collectionSupport\collectionSupport{@Type} 
+02:0005A018 class$collectionSupport\collectionSupport{@Type}$vtable$ 
 --- From 'Obj\arraym_inline.5CB777DB.obj'
-02:0005A190 class$arrayM_inlineValue{@ItemType} 
-02:0005A648 class$arrayM_inlineValue{@ItemType}$vtable$  (Idle)
-02:0005AA10 class$arrayM_inline{@ItemType} 
-02:0005AEB4 class$arrayM_inline{@ItemType}$vtable$  (Idle)
+02:0005A1C0 class$arrayM_inlineValue{@ItemType} 
+02:0005A678 class$arrayM_inlineValue{@ItemType}$vtable$  (Idle)
+02:0005AA40 class$arrayM_inline{@ItemType} 
+02:0005AEE4 class$arrayM_inline{@ItemType}$vtable$  (Idle)
 --- From 'Obj\mapm_redblack.D48B3F53.obj'
-02:0005B260 class$mapM_redBlack{@Key,@Data} 
-02:0005B6E8 class$mapM_redBlack{@Key,@Data}$vtable$  (Idle)
+02:0005B290 class$mapM_redBlack{@Key,@Data} 
+02:0005B718 class$mapM_redBlack{@Key,@Data}$vtable$  (Idle)
 --- From 'Obj\setm_redblack.F3ED8D4F.obj'
-02:0005BA60 class$setM_redBlack{@Type} 
-02:0005BCC4 class$setM_redBlack{@Type}$vtable$  (Idle)
+02:0005BA90 class$setM_redBlack{@Type} 
+02:0005BCF4 class$setM_redBlack{@Type}$vtable$  (Idle)
 --- From 'Obj\mapmsupport.59EA0039.obj'
-02:0005BF60 class$collectionSupportM\collectionMsupport{@Type} 
-02:0005C080 class$collectionSupportM\collectionMsupport{@Type}$vtable$ 
-02:0005C270 class$collectionSupportM\mapMSupport{@Key,@Data} 
-02:0005C434 class$collectionSupportM\mapMSupport{@Key,@Data}$vtable$ 
+02:0005BF90 class$collectionSupportM\collectionMsupport{@Type} 
+02:0005C0B0 class$collectionSupportM\collectionMsupport{@Type}$vtable$ 
+02:0005C2A0 class$collectionSupportM\mapMSupport{@Key,@Data} 
+02:0005C464 class$collectionSupportM\mapMSupport{@Key,@Data}$vtable$ 
 --- From 'Obj\console.043C10C8.obj'
-02:0005C6D0 class$outputStream_console 
-02:0005C944 class$outputStream_console$vtable$  (Idle)
-02:0005CBA0 class$inputStream_console 
-02:0005CF50 class$inputStream_console$vtable$  (Idle)
-02:0005D1D0 class$console 
-02:0005D28C $event$console_class$0$domain$ 
+02:0005C700 class$outputStream_console 
+02:0005C974 class$outputStream_console$vtable$  (Idle)
+02:0005CBD0 class$inputStream_console 
+02:0005CF80 class$inputStream_console$vtable$  (Idle)
+02:0005D200 class$console 
+02:0005D2BC $event$console_class$0$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005D4D0 class$core 
-02:0005D500 $unit$core_class$0$domain$ 
+02:0005D500 class$core 
+02:0005D530 $unit$core_class$0$domain$ 
 --- From 'Obj\gui_api.5B4BA4CC.obj'
-02:0005D520 $unsigned8$core_class$0$domain$ 
+02:0005D550 $unsigned8$core_class$0$domain$ 
 --- From 'Obj\runtime_api.0E79B0CD.obj'
-02:0005D540 $unsigned16$core_class$0$domain$ 
+02:0005D570 $unsigned16$core_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:0005D574 $unsigned64_struct$core_class$0$domain$ 
+02:0005D5A4 $unsigned64_struct$core_class$0$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005D594 $integer8$core_class$0$domain$ 
+02:0005D5C4 $integer8$core_class$0$domain$ 
 --- From 'Obj\gui_api.5B4BA4CC.obj'
-02:0005D5B4 $integer16$core_class$0$domain$ 
+02:0005D5E4 $integer16$core_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:0005D5E8 $integer64_struct$core_class$0$domain$ 
+02:0005D618 $integer64_struct$core_class$0$domain$ 
 --- From 'Obj\time_api.21FCC41B.obj'
-02:0005D61C $namedValue$core_class$0$domain$ 
+02:0005D64C $namedValue$core_class$0$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005D63C $classInfo$core_class$0$domain$ 
-02:0005D66C $exception$core_class$0$domain$ 
-02:0005D6E0 $nativeGuid$core_class$0$domain$ 
-02:0005D700 $byteCountOptional$core_class$0$domain$ 
+02:0005D66C $classInfo$core_class$0$domain$ 
+02:0005D69C $exception$core_class$0$domain$ 
+02:0005D710 $nativeGuid$core_class$0$domain$ 
+02:0005D730 $byteCountOptional$core_class$0$domain$ 
 --- From 'Obj\windowsapi.901E9509.obj'
-02:0005D720 $byteCount$core_class$0$domain$ 
+02:0005D750 $byteCount$core_class$0$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005D740 $charCountOptional$core_class$0$domain$ 
+02:0005D770 $charCountOptional$core_class$0$domain$ 
 --- From 'Obj\windowsapi.901E9509.obj'
-02:0005D760 $charCount$core_class$0$domain$ 
+02:0005D790 $charCount$core_class$0$domain$ 
 --- From 'Obj\reflection.0F000252.obj'
-02:0005D780 $positiveOptional$core_class$0$domain$ 
+02:0005D7B0 $positiveOptional$core_class$0$domain$ 
 --- From 'Obj\shell_api.D9156D40.obj'
-02:0005D7A0 $positive$core_class$0$domain$ 
+02:0005D7D0 $positive$core_class$0$domain$ 
 --- From 'Obj\string.B0A67F43.obj'
-02:0005D7D4 $tuple$core_class$2$domain$ 
+02:0005D804 $tuple$core_class$2$domain$ 
 --- From 'Obj\list.1520BD2B.obj'
-02:0005D80C $tuple$core_class$3$domain$ 
-02:0005D848 $tuple$core_class$4$domain$ 
-02:0005D888 $tuple$core_class$5$domain$ 
-02:0005D8CC $tuple$core_class$6$domain$ 
-02:0005D914 $tuple$core_class$7$domain$ 
-02:0005D960 $tuple$core_class$8$domain$ 
-02:0005D9B0 $tuple$core_class$9$domain$ 
-02:0005DA04 $tuple$core_class$10$domain$ 
-02:0005DA5C $tuple$core_class$11$domain$ 
-02:0005DAB8 $tuple$core_class$12$domain$ 
+02:0005D83C $tuple$core_class$3$domain$ 
+02:0005D878 $tuple$core_class$4$domain$ 
+02:0005D8B8 $tuple$core_class$5$domain$ 
+02:0005D8FC $tuple$core_class$6$domain$ 
+02:0005D944 $tuple$core_class$7$domain$ 
+02:0005D990 $tuple$core_class$8$domain$ 
+02:0005D9E0 $tuple$core_class$9$domain$ 
+02:0005DA34 $tuple$core_class$10$domain$ 
+02:0005DA8C $tuple$core_class$11$domain$ 
+02:0005DAE8 $tuple$core_class$12$domain$ 
 --- From 'Obj\gui_api.5B4BA4CC.obj'
-02:0005DB04 $optional$core_class$1$domain$ 
+02:0005DB34 $optional$core_class$1$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005DB58 $either$core_class$2$domain$ 
-02:0005DB7C $function$core_class$1$domain$ 
-02:0005DB94 $function$core_class$2$domain$ 
-02:0005DBAC $function$core_class$3$domain$ 
-02:0005DBC4 $function$core_class$4$domain$ 
-02:0005DBDC $function$core_class$5$domain$ 
-02:0005DBF4 $function$core_class$6$domain$ 
-02:0005DC0C $function$core_class$7$domain$ 
-02:0005DC24 $function$core_class$8$domain$ 
-02:0005DC3C $function$core_class$9$domain$ 
-02:0005DC54 $function$core_class$10$domain$ 
-02:0005DC6C $function$core_class$11$domain$ 
-02:0005DC84 $function_dt$core_class$1$domain$ 
-02:0005DC9C $function_dt$core_class$2$domain$ 
-02:0005DCB4 $function_dt$core_class$3$domain$ 
-02:0005DCCC $function_dt$core_class$4$domain$ 
-02:0005DCE4 $function_dt$core_class$5$domain$ 
-02:0005DCFC $function_dt$core_class$6$domain$ 
-02:0005DD14 $function_dt$core_class$7$domain$ 
-02:0005DD2C $function_dt$core_class$8$domain$ 
-02:0005DD44 $function_dt$core_class$9$domain$ 
-02:0005DD5C $function_dt$core_class$10$domain$ 
-02:0005DD74 $function_dt$core_class$11$domain$ 
-02:0005DD8C $function_nd$core_class$1$domain$ 
-02:0005DDA4 $function_nd$core_class$2$domain$ 
-02:0005DDBC $function_nd$core_class$3$domain$ 
-02:0005DDD4 $function_nd$core_class$4$domain$ 
-02:0005DDEC $function_nd$core_class$5$domain$ 
-02:0005DE04 $function_nd$core_class$6$domain$ 
-02:0005DE1C $function_nd$core_class$7$domain$ 
-02:0005DE34 $function_nd$core_class$8$domain$ 
-02:0005DE4C $function_nd$core_class$9$domain$ 
-02:0005DE64 $function_nd$core_class$10$domain$ 
-02:0005DE7C $function_nd$core_class$11$domain$ 
-02:0005DE94 $predicate$core_class$0$domain$ 
+02:0005DB88 $either$core_class$2$domain$ 
+02:0005DBAC $function$core_class$1$domain$ 
+02:0005DBC4 $function$core_class$2$domain$ 
+02:0005DBDC $function$core_class$3$domain$ 
+02:0005DBF4 $function$core_class$4$domain$ 
+02:0005DC0C $function$core_class$5$domain$ 
+02:0005DC24 $function$core_class$6$domain$ 
+02:0005DC3C $function$core_class$7$domain$ 
+02:0005DC54 $function$core_class$8$domain$ 
+02:0005DC6C $function$core_class$9$domain$ 
+02:0005DC84 $function$core_class$10$domain$ 
+02:0005DC9C $function$core_class$11$domain$ 
+02:0005DCB4 $function_dt$core_class$1$domain$ 
+02:0005DCCC $function_dt$core_class$2$domain$ 
+02:0005DCE4 $function_dt$core_class$3$domain$ 
+02:0005DCFC $function_dt$core_class$4$domain$ 
+02:0005DD14 $function_dt$core_class$5$domain$ 
+02:0005DD2C $function_dt$core_class$6$domain$ 
+02:0005DD44 $function_dt$core_class$7$domain$ 
+02:0005DD5C $function_dt$core_class$8$domain$ 
+02:0005DD74 $function_dt$core_class$9$domain$ 
+02:0005DD8C $function_dt$core_class$10$domain$ 
+02:0005DDA4 $function_dt$core_class$11$domain$ 
+02:0005DDBC $function_nd$core_class$1$domain$ 
+02:0005DDD4 $function_nd$core_class$2$domain$ 
+02:0005DDEC $function_nd$core_class$3$domain$ 
+02:0005DE04 $function_nd$core_class$4$domain$ 
+02:0005DE1C $function_nd$core_class$5$domain$ 
+02:0005DE34 $function_nd$core_class$6$domain$ 
+02:0005DE4C $function_nd$core_class$7$domain$ 
+02:0005DE64 $function_nd$core_class$8$domain$ 
+02:0005DE7C $function_nd$core_class$9$domain$ 
+02:0005DE94 $function_nd$core_class$10$domain$ 
+02:0005DEAC $function_nd$core_class$11$domain$ 
+02:0005DEC4 $predicate$core_class$0$domain$ 
 --- From 'Obj\outputstreamsupport.024B29AC.obj'
-02:0005DEAC $predicate$core_class$1$domain$ 
+02:0005DEDC $predicate$core_class$1$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005DEC4 $predicate$core_class$2$domain$ 
-02:0005DEDC $predicate$core_class$3$domain$ 
-02:0005DEF4 $predicate$core_class$4$domain$ 
-02:0005DF0C $predicate$core_class$5$domain$ 
-02:0005DF24 $predicate$core_class$6$domain$ 
-02:0005DF3C $predicate$core_class$7$domain$ 
-02:0005DF54 $predicate$core_class$8$domain$ 
-02:0005DF6C $predicate$core_class$9$domain$ 
-02:0005DF84 $predicate$core_class$10$domain$ 
-02:0005DF9C $predicate_dt$core_class$0$domain$ 
-02:0005DFB4 $predicate_dt$core_class$1$domain$ 
-02:0005DFCC $predicate_dt$core_class$2$domain$ 
-02:0005DFE4 $predicate_dt$core_class$3$domain$ 
-02:0005DFFC $predicate_dt$core_class$4$domain$ 
-02:0005E014 $predicate_dt$core_class$5$domain$ 
-02:0005E02C $predicate_dt$core_class$6$domain$ 
-02:0005E044 $predicate_dt$core_class$7$domain$ 
-02:0005E05C $predicate_dt$core_class$8$domain$ 
-02:0005E074 $predicate_dt$core_class$9$domain$ 
-02:0005E08C $predicate_dt$core_class$10$domain$ 
-02:0005E0A4 $predicate_nd$core_class$0$domain$ 
-02:0005E0BC $predicate_nd$core_class$1$domain$ 
-02:0005E0D4 $predicate_nd$core_class$2$domain$ 
-02:0005E0EC $predicate_nd$core_class$3$domain$ 
-02:0005E104 $predicate_nd$core_class$4$domain$ 
-02:0005E11C $predicate_nd$core_class$5$domain$ 
-02:0005E134 $predicate_nd$core_class$6$domain$ 
-02:0005E14C $predicate_nd$core_class$7$domain$ 
-02:0005E164 $predicate_nd$core_class$8$domain$ 
-02:0005E17C $predicate_nd$core_class$9$domain$ 
-02:0005E194 $predicate_nd$core_class$10$domain$ 
-02:0005E1AC $comparator$core_class$1$domain$ 
-02:0005E1C4 $comparator$core_class$2$domain$ 
-02:0005E1F2 $sortOrder$core_class$0$domain$ 
+02:0005DEF4 $predicate$core_class$2$domain$ 
+02:0005DF0C $predicate$core_class$3$domain$ 
+02:0005DF24 $predicate$core_class$4$domain$ 
+02:0005DF3C $predicate$core_class$5$domain$ 
+02:0005DF54 $predicate$core_class$6$domain$ 
+02:0005DF6C $predicate$core_class$7$domain$ 
+02:0005DF84 $predicate$core_class$8$domain$ 
+02:0005DF9C $predicate$core_class$9$domain$ 
+02:0005DFB4 $predicate$core_class$10$domain$ 
+02:0005DFCC $predicate_dt$core_class$0$domain$ 
+02:0005DFE4 $predicate_dt$core_class$1$domain$ 
+02:0005DFFC $predicate_dt$core_class$2$domain$ 
+02:0005E014 $predicate_dt$core_class$3$domain$ 
+02:0005E02C $predicate_dt$core_class$4$domain$ 
+02:0005E044 $predicate_dt$core_class$5$domain$ 
+02:0005E05C $predicate_dt$core_class$6$domain$ 
+02:0005E074 $predicate_dt$core_class$7$domain$ 
+02:0005E08C $predicate_dt$core_class$8$domain$ 
+02:0005E0A4 $predicate_dt$core_class$9$domain$ 
+02:0005E0BC $predicate_dt$core_class$10$domain$ 
+02:0005E0D4 $predicate_nd$core_class$0$domain$ 
+02:0005E0EC $predicate_nd$core_class$1$domain$ 
+02:0005E104 $predicate_nd$core_class$2$domain$ 
+02:0005E11C $predicate_nd$core_class$3$domain$ 
+02:0005E134 $predicate_nd$core_class$4$domain$ 
+02:0005E14C $predicate_nd$core_class$5$domain$ 
+02:0005E164 $predicate_nd$core_class$6$domain$ 
+02:0005E17C $predicate_nd$core_class$7$domain$ 
+02:0005E194 $predicate_nd$core_class$8$domain$ 
+02:0005E1AC $predicate_nd$core_class$9$domain$ 
+02:0005E1C4 $predicate_nd$core_class$10$domain$ 
+02:0005E1DC $comparator$core_class$1$domain$ 
+02:0005E1F4 $comparator$core_class$2$domain$ 
+02:0005E222 $sortOrder$core_class$0$domain$ 
 --- From 'Obj\time_api.21FCC41B.obj'
-02:0005E3A8 $value$core_class$0$domain$ 
+02:0005E3D8 $value$core_class$0$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005E420 $sourceCursor$core_class$0$domain$ 
+02:0005E450 $sourceCursor$core_class$0$domain$ 
 --- From 'Obj\exceptiondump.174B23B9.obj'
-02:0005E458 $programPoint$core_class$0$domain$ 
+02:0005E488 $programPoint$core_class$0$domain$ 
 --- From 'Obj\core.4BC2D97D.obj'
-02:0005E48E $allowBoolean$core_class$0$domain$ 
-02:0005E4C6 $defaultActionBoolean$core_class$0$domain$ 
+02:0005E4BE $allowBoolean$core_class$0$domain$ 
+02:0005E4F6 $defaultActionBoolean$core_class$0$domain$ 
 --- From 'Obj\event.35BDD536.obj'
-02:0005E9C0 class$event7{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6,@Type7} 
-02:0005EE70 class$event7{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6,@Type7}$vtable$ 
-02:0005FCE0 class$event6{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6} 
-02:000600E4 class$event6{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6}$vtable$ 
-02:00060CE0 class$event5{@Source,@Type1,@Type2,@Type3,@Type4,@Type5} 
-02:00061044 class$event5{@Source,@Type1,@Type2,@Type3,@Type4,@Type5}$vtable$ 
-02:00061A10 class$event4{@Source,@Type1,@Type2,@Type3,@Type4} 
-02:00061D40 class$event4{@Source,@Type1,@Type2,@Type3,@Type4}$vtable$ 
-02:00062630 class$event3{@Source,@Type1,@Type2,@Type3} 
-02:0006292C class$event3{@Source,@Type1,@Type2,@Type3}$vtable$ 
-02:00063150 class$event2{@Source,@Type1,@Type2} 
-02:00063418 class$event2{@Source,@Type1,@Type2}$vtable$ 
-02:00063B70 class$event1{@Source,@Type1} 
-02:00063E04 class$event1{@Source,@Type1}$vtable$ 
-02:00064490 class$event0{@Source} 
-02:000646F0 class$event0{@Source}$vtable$ 
+02:0005E9F0 class$event7{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6,@Type7} 
+02:0005EEA0 class$event7{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6,@Type7}$vtable$ 
+02:0005FD10 class$event6{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6} 
+02:00060114 class$event6{@Source,@Type1,@Type2,@Type3,@Type4,@Type5,@Type6}$vtable$ 
+02:00060D10 class$event5{@Source,@Type1,@Type2,@Type3,@Type4,@Type5} 
+02:00061074 class$event5{@Source,@Type1,@Type2,@Type3,@Type4,@Type5}$vtable$ 
+02:00061A40 class$event4{@Source,@Type1,@Type2,@Type3,@Type4} 
+02:00061D70 class$event4{@Source,@Type1,@Type2,@Type3,@Type4}$vtable$ 
+02:00062660 class$event3{@Source,@Type1,@Type2,@Type3} 
+02:0006295C class$event3{@Source,@Type1,@Type2,@Type3}$vtable$ 
+02:00063180 class$event2{@Source,@Type1,@Type2} 
+02:00063448 class$event2{@Source,@Type1,@Type2}$vtable$ 
+02:00063BA0 class$event1{@Source,@Type1} 
+02:00063E34 class$event1{@Source,@Type1}$vtable$ 
+02:000644C0 class$event0{@Source} 
+02:00064720 class$event0{@Source}$vtable$ 
 --- From 'Obj\exception.544F7452.obj'
-02:00064CA0 class$runtime_exception 
-02:00064D30 class$exception_exception 
-02:00064DD0 class$exception 
+02:00064CD0 class$runtime_exception 
+02:00064D60 class$exception_exception 
+02:00064E00 class$exception 
 --- From 'Obj\exceptiondump.174B23B9.obj'
-02:00064E0A $kind$exception_class$0$domain$ 
+02:00064E3A $kind$exception_class$0$domain$ 
 --- From 'Obj\exception.544F7452.obj'
-02:00064E44 $programPointDescriptor$exception_class$0$domain$ 
+02:00064E74 $programPointDescriptor$exception_class$0$domain$ 
 --- From 'Obj\exceptiondump.174B23B9.obj'
-02:00064EA4 $descriptor$exception_class$0$domain$ 
-02:00064EEC $traceInfo$exception_class$0$domain$ 
-02:00064F44 $lineInfo$exception_class$0$domain$ 
+02:00064ED4 $descriptor$exception_class$0$domain$ 
+02:00064F1C $traceInfo$exception_class$0$domain$ 
+02:00064F74 $lineInfo$exception_class$0$domain$ 
 --- From 'Obj\exception.544F7452.obj'
-02:00065060 class$errorDescriptorInformation 
-02:0006517C class$errorDescriptorInformation$vtable$ 
+02:00065090 class$errorDescriptorInformation 
+02:000651AC class$errorDescriptorInformation$vtable$ 
 --- From 'Obj\exceptiondump.174B23B9.obj'
-02:00065370 class$exceptionDump 
+02:000653A0 class$exceptionDump 
 --- From 'Obj\filesystem.57D9C483.obj'
-02:00065410 class$outputStream_file 
-02:000656F0 class$outputStream_file$vtable$  (Idle)
-02:00065940 class$messageFile 
-02:00065ADC class$messageFile$vtable$ 
-02:00065F50 class$inputStream_file 
-02:00066398 class$inputStream_file$vtable$  (Idle)
-02:00066680 class$fileVersion 
-02:000666C0 $versionInformation$fileVersion_class$0$domain$ 
-02:0006670C $fileVersionInformation$fileVersion_class$0$domain$ 
-02:000669A0 class$fileSystem_exception 
-02:00066A40 class$filename 
-02:00066AB0 class$file 
-02:00066B02 $overwrite$file_class$0$domain$ 
-02:00066BB0 class$directory 
-02:00066C1A $volumeType$directory_class$0$domain$ 
+02:00065440 class$outputStream_file 
+02:00065720 class$outputStream_file$vtable$  (Idle)
+02:00065970 class$messageFile 
+02:00065B0C class$messageFile$vtable$ 
+02:00065F80 class$inputStream_file 
+02:000663C8 class$inputStream_file$vtable$  (Idle)
+02:000666B0 class$fileVersion 
+02:000666F0 $versionInformation$fileVersion_class$0$domain$ 
+02:0006673C $fileVersionInformation$fileVersion_class$0$domain$ 
+02:000669D0 class$fileSystem_exception 
+02:00066A70 class$filename 
+02:00066AE0 class$file 
+02:00066B32 $overwrite$file_class$0$domain$ 
+02:00066BE0 class$directory 
+02:00066C4A $volumeType$directory_class$0$domain$ 
 --- From 'Obj\list.1520BD2B.obj'
-02:00066D00 class$list 
+02:00066D30 class$list 
 --- From 'Obj\math.724D21D5.obj'
-02:00067620 class$math_exception 
-02:000676A0 class$math 
-02:000676C4 $inCircle$math_class$0$domain$ 
-02:000676F0 $aPeriod$math_class$0$domain$ 
-02:0006771C $uReal$math_class$0$domain$ 
+02:00067650 class$math_exception 
+02:000676D0 class$math 
+02:000676F4 $inCircle$math_class$0$domain$ 
+02:00067720 $aPeriod$math_class$0$domain$ 
+02:0006774C $uReal$math_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:000677B0 class$weakReference{@Type} 
-02:00067874 class$weakReference{@Type}$vtable$ 
-02:000679C0 class$weakPointer 
-02:00067AC8 class$weakPointer$vtable$ 
-02:00067BE0 class$memory 
-02:00067C20 $contextMap$memory_class$0$domain$ 
-02:00067C62 $memoryKind$memory_class$0$domain$ 
-02:00067C98 $pBinary$memory_class$0$domain$ 
-02:00067CC8 $pBinaryNonAtomic$memory_class$0$domain$ 
-02:00067CF8 $pByteCount$memory_class$0$domain$ 
+02:000677E0 class$weakReference{@Type} 
+02:000678A4 class$weakReference{@Type}$vtable$ 
+02:000679F0 class$weakPointer 
+02:00067AF8 class$weakPointer$vtable$ 
+02:00067C10 class$memory 
+02:00067C50 $contextMap$memory_class$0$domain$ 
+02:00067C92 $memoryKind$memory_class$0$domain$ 
+02:00067CC8 $pBinary$memory_class$0$domain$ 
+02:00067CF8 $pBinaryNonAtomic$memory_class$0$domain$ 
+02:00067D28 $pByteCount$memory_class$0$domain$ 
 --- From 'Obj\string8.302F7782.obj'
-02:00067D30 $pChar$memory_class$0$domain$ 
+02:00067D60 $pChar$memory_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:00067D68 $pChar8$memory_class$0$domain$ 
-02:00067D98 $pCharCount$memory_class$0$domain$ 
+02:00067D98 $pChar8$memory_class$0$domain$ 
+02:00067DC8 $pCharCount$memory_class$0$domain$ 
 --- From 'Obj\registry_api.0E78C5E3.obj'
-02:00067DC8 $pHandle$memory_class$0$domain$ 
+02:00067DF8 $pHandle$memory_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:00067DF8 $pInteger$memory_class$0$domain$ 
-02:00067E30 $pInteger16$memory_class$0$domain$ 
-02:00067E68 $pInteger64$memory_class$0$domain$ 
-02:00067EA0 $pInteger8$memory_class$0$domain$ 
-02:00067ED0 $pIntegerNative$memory_class$0$domain$ 
-02:00067F00 $pObject$memory_class$0$domain$ 
+02:00067E28 $pInteger$memory_class$0$domain$ 
+02:00067E60 $pInteger16$memory_class$0$domain$ 
+02:00067E98 $pInteger64$memory_class$0$domain$ 
+02:00067ED0 $pInteger8$memory_class$0$domain$ 
+02:00067F00 $pIntegerNative$memory_class$0$domain$ 
+02:00067F30 $pObject$memory_class$0$domain$ 
 --- From 'Obj\registry_api.0E78C5E3.obj'
-02:00067F30 $pPointer$memory_class$0$domain$ 
+02:00067F60 $pPointer$memory_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:00067F68 $pReal$memory_class$0$domain$ 
-02:00067F98 $pReal32$memory_class$0$domain$ 
+02:00067F98 $pReal$memory_class$0$domain$ 
+02:00067FC8 $pReal32$memory_class$0$domain$ 
 --- From 'Obj\string.B0A67F43.obj'
-02:00067FC8 $pString$memory_class$0$domain$ 
+02:00067FF8 $pString$memory_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:00067FF8 $pString8$memory_class$0$domain$ 
+02:00068028 $pString8$memory_class$0$domain$ 
 --- From 'Obj\registry_api.0E78C5E3.obj'
-02:00068028 $pUnsigned$memory_class$0$domain$ 
+02:00068058 $pUnsigned$memory_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:00068060 $pUnsigned16$memory_class$0$domain$ 
-02:00068098 $pUnsigned64$memory_class$0$domain$ 
+02:00068090 $pUnsigned16$memory_class$0$domain$ 
+02:000680C8 $pUnsigned64$memory_class$0$domain$ 
 --- From 'Obj\string8.302F7782.obj'
-02:000680D0 $pUnsigned8$memory_class$0$domain$ 
+02:00068100 $pUnsigned8$memory_class$0$domain$ 
 --- From 'Obj\memory.9BD3BF38.obj'
-02:00068100 $pUnsignedNative$memory_class$0$domain$ 
-02:000683A0 class$bit 
-02:000683C4 $unsigned4$bit_class$0$domain$ 
+02:00068130 $pUnsignedNative$memory_class$0$domain$ 
+02:000683D0 class$bit 
+02:000683F4 $unsigned4$bit_class$0$domain$ 
 --- From 'Obj\namedvalue.187E0B91.obj'
-02:000684B0 class$namedValue 
+02:000684E0 class$namedValue 
 --- From 'Obj\programcontrol.5D08C78A.obj'
-02:00068530 class$programControl 
-02:00068554 $exceptionRaiser$programControl_class$0$domain$ 
+02:00068560 class$programControl 
+02:00068584 $exceptionRaiser$programControl_class$0$domain$ 
 --- From 'Obj\reflection.0F000252.obj'
-02:00068640 class$pfc\reflection\reflection_native 
-02:00068678 $anyTermValue$pfc\reflection\reflection_native_class$0$domain$ 
-02:000686AC $factDbValue$pfc\reflection\reflection_native_class$0$domain$ 
-02:000686E0 $prologPredicateValue$pfc\reflection\reflection_native_class$0$domain$ 
-02:000687F0 class$pfc\reflection\reflection 
-02:00068932 $typeKind$pfc\reflection\reflection_class$0$domain$ 
-02:000689F2 $predicateMode$pfc\reflection\reflection_class$0$domain$ 
-02:00068A24 $functor$pfc\reflection\reflection_class$0$domain$ 
-02:00068A8A $callingConvention$pfc\reflection\reflection_class$0$domain$ 
+02:00068670 class$pfc\reflection\reflection_native 
+02:000686A8 $anyTermValue$pfc\reflection\reflection_native_class$0$domain$ 
+02:000686DC $factDbValue$pfc\reflection\reflection_native_class$0$domain$ 
+02:00068710 $prologPredicateValue$pfc\reflection\reflection_native_class$0$domain$ 
+02:00068820 class$pfc\reflection\reflection 
+02:00068962 $typeKind$pfc\reflection\reflection_class$0$domain$ 
+02:00068A22 $predicateMode$pfc\reflection\reflection_class$0$domain$ 
+02:00068A54 $functor$pfc\reflection\reflection_class$0$domain$ 
+02:00068ABA $callingConvention$pfc\reflection\reflection_class$0$domain$ 
 --- From 'Obj\registry.88C8A89A.obj'
-02:00068F60 class$registry_exception 
-02:00068FF0 class$registry 
-02:00069066 $rootKey$registry_class$0$domain$ 
-02:000690BE $registryView$registry_class$0$domain$ 
+02:00068F90 class$registry_exception 
+02:00069020 class$registry 
+02:00069096 $rootKey$registry_class$0$domain$ 
+02:000690EE $registryView$registry_class$0$domain$ 
 --- From 'Obj\std.1C7A9F9B.obj'
-02:00069250 class$std 
+02:00069280 class$std 
 --- From 'Obj\string.B0A67F43.obj'
-02:000692A0 class$inputSupport 
-02:00069360 class$inputSupport$vtable$ 
-02:000694E0 class$outputSupport 
-02:000695BC class$outputSupport$vtable$ 
+02:000692D0 class$inputSupport 
+02:00069390 class$inputSupport$vtable$ 
+02:00069510 class$outputSupport 
+02:000695EC class$outputSupport$vtable$ 
 --- From 'Obj\stream.99784C5B.obj'
-02:000697A0 class$stream_exception 
-02:00069830 class$stdioState 
-02:000698D4 class$stdioState$vtable$ 
-02:00069A10 class$stdio 
-02:00069AD0 class$outputStream_null 
-02:00069B3C class$outputStream_null$vtable$ 
-02:00069C70 class$inputStream_null 
-02:00069CDC class$inputStream_null$vtable$ 
+02:000697D0 class$stream_exception 
+02:00069860 class$stdioState 
+02:00069904 class$stdioState$vtable$ 
+02:00069A40 class$stdio 
+02:00069B00 class$outputStream_null 
+02:00069B6C class$outputStream_null$vtable$ 
+02:00069CA0 class$inputStream_null 
+02:00069D0C class$inputStream_null$vtable$ 
 --- From 'Obj\string.B0A67F43.obj'
-02:00069E20 class$string_exception 
-02:00069EB0 class$string 
-02:00069EF6 $caseSensitivity$string_class$0$domain$ 
-02:00069F3E $adjustBehaviour$string_class$0$domain$ 
-02:00069F7A $adjustSide$string_class$0$domain$ 
-02:0006A130 class$outputStream_string 
-02:0006A530 class$outputStream_string$vtable$  (Idle)
-02:0006AAE0 class$inputStream_string 
-02:0006AE04 class$inputStream_string$vtable$  (Idle)
+02:00069E50 class$string_exception 
+02:00069EE0 class$string 
+02:00069F26 $caseSensitivity$string_class$0$domain$ 
+02:00069F6E $adjustBehaviour$string_class$0$domain$ 
+02:00069FAA $adjustSide$string_class$0$domain$ 
+02:0006A160 class$outputStream_string 
+02:0006A560 class$outputStream_string$vtable$  (Idle)
+02:0006AB10 class$inputStream_string 
+02:0006AE34 class$inputStream_string$vtable$  (Idle)
 --- From 'Obj\string8.302F7782.obj'
-02:0006B000 class$string8 
+02:0006B030 class$string8 
 --- From 'Obj\varm.17B5C45B.obj'
-02:0006B070 class$varM_unsigned 
-02:0006B144 class$varM_unsigned$vtable$ 
-02:0006B230 class$varM_reference{@Term} 
-02:0006B26C $reference$varM_reference{@Term}_class$0$domain$ 
-02:0006B308 class$varM_reference{@Term}$vtable$ 
-02:0006B450 class$varM_optional{@Term} 
-02:0006B540 class$varM_optional{@Term}$vtable$ 
-02:0006B660 class$varM_integer 
-02:0006B734 class$varM_integer$vtable$ 
-02:0006B810 class$varM_boolean 
-02:0006B8E4 class$varM_boolean$vtable$ 
-02:0006B9B0 class$varM{@Term} 
-02:0006BBD0 class$varM{@Term}$vtable$ 
+02:0006B0A0 class$varM_unsigned 
+02:0006B174 class$varM_unsigned$vtable$ 
+02:0006B260 class$varM_reference{@Term} 
+02:0006B29C $reference$varM_reference{@Term}_class$0$domain$ 
+02:0006B338 class$varM_reference{@Term}$vtable$ 
+02:0006B480 class$varM_optional{@Term} 
+02:0006B570 class$varM_optional{@Term}$vtable$ 
+02:0006B690 class$varM_integer 
+02:0006B764 class$varM_integer$vtable$ 
+02:0006B840 class$varM_boolean 
+02:0006B914 class$varM_boolean$vtable$ 
+02:0006B9E0 class$varM{@Term} 
+02:0006BC00 class$varM{@Term}$vtable$ 
 --- From 'Obj\vpidomains.CE78C30C.obj'
-02:0006BFE0 class$vpiOwnerDraw 
-02:0006C070 class$vpiDomains 
+02:0006C010 class$vpiOwnerDraw 
+02:0006C0A0 class$vpiDomains 
 --- From 'Obj\gui_api.5B4BA4CC.obj'
-02:0006C0A8 $pnt$vpiDomains_class$0$domain$ 
-02:0006C0E4 $rct$vpiDomains_class$0$domain$ 
+02:0006C0D8 $pnt$vpiDomains_class$0$domain$ 
+02:0006C114 $rct$vpiDomains_class$0$domain$ 
 --- From 'Obj\vpidomains.CE78C30C.obj'
-02:0006C118 $brush$vpiDomains_class$0$domain$ 
-02:0006C150 $pen$vpiDomains_class$0$domain$ 
-02:0006C198 $drawtools$vpiDomains_class$0$domain$ 
-02:0006C1F8 $menu$vpiDomains_class$0$domain$ 
-02:0006C220 $keyModifier$vpiDomains_class$0$domain$ 
-02:0006C268 $acceleratorKey$vpiDomains_class$0$domain$ 
-02:0006C308 $menuItem$vpiDomains_class$0$domain$ 
-02:0006C670 $event$vpiDomains_class$0$domain$ 
-02:0006C7A0 $controlInfo$vpiDomains_class$0$domain$ 
-02:0006C844 $stateInfo$vpiDomains_class$0$domain$ 
-02:0006C994 $windef$vpiDomains_class$0$domain$ 
-02:0006C9EC $wdef$vpiDomains_class$0$domain$ 
-02:0006CA0C $errhandler$vpiDomains_class$0$domain$ 
-02:0006CA24 $eHandler$vpiDomains_class$0$domain$ 
-02:0006CA54 $accelerator$vpiDomains_class$0$domain$ 
-02:0006CABC $bitmapId$vpiDomains_class$0$domain$ 
-02:0006CAF8 $ddeserviceInfo$vpiDomains_class$0$domain$ 
-02:0006CB64 $ddedata$vpiDomains_class$0$domain$ 
-02:0006CCC8 $ddeevent$vpiDomains_class$0$domain$ 
-02:0006CD3A $alignment$vpiDomains_class$0$domain$ 
+02:0006C148 $brush$vpiDomains_class$0$domain$ 
+02:0006C180 $pen$vpiDomains_class$0$domain$ 
+02:0006C1C8 $drawtools$vpiDomains_class$0$domain$ 
+02:0006C228 $menu$vpiDomains_class$0$domain$ 
+02:0006C250 $keyModifier$vpiDomains_class$0$domain$ 
+02:0006C298 $acceleratorKey$vpiDomains_class$0$domain$ 
+02:0006C338 $menuItem$vpiDomains_class$0$domain$ 
+02:0006C6A0 $event$vpiDomains_class$0$domain$ 
+02:0006C7D0 $controlInfo$vpiDomains_class$0$domain$ 
+02:0006C874 $stateInfo$vpiDomains_class$0$domain$ 
+02:0006C9C4 $windef$vpiDomains_class$0$domain$ 
+02:0006CA1C $wdef$vpiDomains_class$0$domain$ 
+02:0006CA3C $errhandler$vpiDomains_class$0$domain$ 
+02:0006CA54 $eHandler$vpiDomains_class$0$domain$ 
+02:0006CA84 $accelerator$vpiDomains_class$0$domain$ 
+02:0006CAEC $bitmapId$vpiDomains_class$0$domain$ 
+02:0006CB28 $ddeserviceInfo$vpiDomains_class$0$domain$ 
+02:0006CB94 $ddedata$vpiDomains_class$0$domain$ 
+02:0006CCF8 $ddeevent$vpiDomains_class$0$domain$ 
+02:0006CD6A $alignment$vpiDomains_class$0$domain$ 
 --- From 'Obj\console_api.885E7959.obj'
-02:0006D5D0 class$console_native 
-02:0006D614 $coord$console_native_class$0$domain$ 
-02:0006D684 $consoleScreenBufferInfo$console_native_class$0$domain$ 
-02:0006D6DC $key_event_record$console_native_class$0$domain$ 
-02:0006D730 $mouse_event_record$console_native_class$0$domain$ 
-02:0006D770 $char_info$console_native_class$0$domain$ 
-02:0006D7BC $small_rect$console_native_class$0$domain$ 
-02:0006D7DC $handlerRoutine$console_native_class$0$domain$ 
-02:0006D960 class$console_api 
+02:0006D600 class$console_native 
+02:0006D644 $coord$console_native_class$0$domain$ 
+02:0006D6B4 $consoleScreenBufferInfo$console_native_class$0$domain$ 
+02:0006D70C $key_event_record$console_native_class$0$domain$ 
+02:0006D760 $mouse_event_record$console_native_class$0$domain$ 
+02:0006D7A0 $char_info$console_native_class$0$domain$ 
+02:0006D7EC $small_rect$console_native_class$0$domain$ 
+02:0006D80C $handlerRoutine$console_native_class$0$domain$ 
+02:0006D990 class$console_api 
 --- From 'Obj\exe_api.A0303A40.obj'
-02:0006D9F0 class$exe_native 
-02:0006DA80 class$exe_api 
-02:0006DAC6 $runMode$exe_api_class$0$domain$ 
-02:0006DB1A $coInit$exe_api_class$0$domain$ 
+02:0006DA20 class$exe_native 
+02:0006DAB0 class$exe_api 
+02:0006DAF6 $runMode$exe_api_class$0$domain$ 
+02:0006DB4A $coInit$exe_api_class$0$domain$ 
 --- From 'Obj\filesystem_api.1C9354BA.obj'
-02:0006DC50 class$lZ_fileSystem_native 
-02:0006DCAC $ofStruct$lZ_fileSystem_native_class$0$domain$ 
-02:0006DD80 class$fileSystem_native 
-02:0006DE0C $fileInfo$fileSystem_native_class$0$domain$ 
-02:0006DE7C $fileAttributesInfo$fileSystem_native_class$0$domain$ 
-02:0006DF14 $win32_find_data$fileSystem_native_class$0$domain$ 
-02:0006E022 $file_info_by_handle_class$fileSystem_native_class$0$domain$ 
-02:0006E08C $fileIOCompletionRoutine$fileSystem_native_class$0$domain$ 
-02:0006E0EA $fileAction$fileSystem_native_class$0$domain$ 
-02:0006E150 $file_notify_information$fileSystem_native_class$0$domain$ 
-02:0006E190 $overlapped$fileSystem_native_class$0$domain$ 
-02:0006E24C $openFileName$fileSystem_native_class$0$domain$ 
-02:0006E26C $oFNHookProc$fileSystem_native_class$0$domain$ 
-02:0006E298 $uSE_INFO_0$fileSystem_native_class$0$domain$ 
-02:0006E2C8 $$inline_260$fileSystem_native_class$1$domain$ 
-02:0006E2F8 $$inline_14$fileSystem_native_class$1$domain$ 
-02:0006E980 class$fileSystem_api 
-02:0006EA0E $fileAttributeAtom$fileSystem_api_class$0$domain$ 
-02:0006EA7A $accessPermit$fileSystem_api_class$0$domain$ 
+02:0006DC80 class$lZ_fileSystem_native 
+02:0006DCDC $ofStruct$lZ_fileSystem_native_class$0$domain$ 
+02:0006DDB0 class$fileSystem_native 
+02:0006DE3C $fileInfo$fileSystem_native_class$0$domain$ 
+02:0006DEAC $fileAttributesInfo$fileSystem_native_class$0$domain$ 
+02:0006DF44 $win32_find_data$fileSystem_native_class$0$domain$ 
+02:0006E052 $file_info_by_handle_class$fileSystem_native_class$0$domain$ 
+02:0006E0BC $fileIOCompletionRoutine$fileSystem_native_class$0$domain$ 
+02:0006E11A $fileAction$fileSystem_native_class$0$domain$ 
+02:0006E180 $file_notify_information$fileSystem_native_class$0$domain$ 
+02:0006E1C0 $overlapped$fileSystem_native_class$0$domain$ 
+02:0006E27C $openFileName$fileSystem_native_class$0$domain$ 
+02:0006E29C $oFNHookProc$fileSystem_native_class$0$domain$ 
+02:0006E2C8 $uSE_INFO_0$fileSystem_native_class$0$domain$ 
+02:0006E2F8 $$inline_260$fileSystem_native_class$1$domain$ 
+02:0006E328 $$inline_14$fileSystem_native_class$1$domain$ 
+02:0006E9B0 class$fileSystem_api 
+02:0006EA3E $fileAttributeAtom$fileSystem_api_class$0$domain$ 
+02:0006EAAA $accessPermit$fileSystem_api_class$0$domain$ 
 --- From 'Obj\gui_api.5B4BA4CC.obj'
-02:0006EEE0 class$gui_native 
-02:0006EF74 $logfont$gui_native_class$0$domain$ 
-02:0006EFB0 $mouseMovePoint$gui_native_class$0$domain$ 
-02:0006EFD0 $enumDesktopProc$gui_native_class$0$domain$ 
-02:0006EFE8 $enumWindowStationProc$gui_native_class$0$domain$ 
-02:0006F018 $copyDataStruct$gui_native_class$0$domain$ 
-02:0006F054 $trackMouseEvent$gui_native_class$0$domain$ 
-02:0006F0B4 $msg$gui_native_class$0$domain$ 
-02:0006F0D4 $sendAsyncProc$gui_native_class$0$domain$ 
-02:0006F0EC $wndProc$gui_native_class$0$domain$ 
-02:0006F140 $wndClassEx$gui_native_class$0$domain$ 
-02:0006F19C $createstruct$gui_native_class$0$domain$ 
-02:0006F1DC $flashInfo$gui_native_class$0$domain$ 
-02:0006F224 $windowPos$gui_native_class$0$domain$ 
-02:0006F294 $windowPlacement$gui_native_class$0$domain$ 
-02:0006F314 $windowInfo$gui_native_class$0$domain$ 
-02:0006F370 $monitorInfo$gui_native_class$0$domain$ 
-02:0006F3D8 $monitorInfoEx$gui_native_class$0$domain$ 
-02:0006F3F8 $monitorEnumProc$gui_native_class$0$domain$ 
-02:0006F44C $dlgTemplate$gui_native_class$0$domain$ 
-02:0006F4A8 $dlgItemTemplate$gui_native_class$0$domain$ 
-02:0006F558 $dlgTemplateEx$gui_native_class$0$domain$ 
-02:0006F578 $timerProc$gui_native_class$0$domain$ 
-02:0006F5B4 $accel$gui_native_class$0$domain$ 
-02:0006F610 $menuItemInfo$gui_native_class$0$domain$ 
-02:0006F650 $drawTextParams$gui_native_class$0$domain$ 
-02:0006F670 $grayStringProc$gui_native_class$0$domain$ 
-02:0006F688 $drawStateProc$gui_native_class$0$domain$ 
-02:0006F6B4 $size$gui_native_class$0$domain$ 
-02:0006F760 $textmetric$gui_native_class$0$domain$ 
-02:0006F7C8 $paintStruct$gui_native_class$0$domain$ 
-02:0006F7E8 $propEnumProc$gui_native_class$0$domain$ 
-02:0006F840 $helpInfo$gui_native_class$0$domain$ 
-02:0006F860 $wndEnumProc$gui_native_class$0$domain$ 
-02:0006F89A $gaFlags$gui_native_class$0$domain$ 
-02:0006F8C0 $hookProc$gui_native_class$0$domain$ 
-02:0006F8F8 $kbdllhookstruct$gui_native_class$0$domain$ 
-02:0006F938 $iconInfo$gui_native_class$0$domain$ 
-02:0006F984 $buttonImageList$gui_native_class$0$domain$ 
-02:0006F9A4 $button_imageList_align$gui_native_class$0$domain$ 
-02:0006F9EC $nmBcHotItem$gui_native_class$0$domain$ 
-02:0006FA40 $button_splitInfo$gui_native_class$0$domain$ 
-02:0006FA90 $nmBcDropdown$gui_native_class$0$domain$ 
-02:0006FAC8 $nmhdr$gui_native_class$0$domain$ 
-02:0006FB34 $nmCustomDraw$gui_native_class$0$domain$ 
-02:0006FB7C $scrollInfo$gui_native_class$0$domain$ 
-02:0006FC00 $scrollBarInfo$gui_native_class$0$domain$ 
-02:0006FC38 $logbrush$gui_native_class$0$domain$ 
-02:0006FC80 $tcItem$gui_native_class$0$domain$ 
-02:0006FCB4 $tagInitCommonControlsEx$gui_native_class$0$domain$ 
-02:0006FCF4 $logPalette$gui_native_class$0$domain$ 
-02:0006FD38 $mouseInput$gui_native_class$0$domain$ 
-02:0006FD88 $keybdInput$gui_native_class$0$domain$ 
-02:0006FDCC $hardwareInput$gui_native_class$0$domain$ 
-02:0006FDEC $inputUnion$gui_native_class$0$domain$ 
-02:0006FE38 $input$gui_native_class$0$domain$ 
-02:0006FEA8 $toolinfo$gui_native_class$0$domain$ 
-02:0006FF10 $nmttdispInfo$gui_native_class$0$domain$ 
-02:0006FF5C $blendFunction$gui_native_class$0$domain$ 
-02:0006FFC4 $chooseFont$gui_native_class$0$domain$ 
-02:00070068 $printdlg$gui_native_class$0$domain$ 
-02:000700E8 $printdlgEx$gui_native_class$0$domain$ 
-02:00070128 $inputUnion_mi$gui_native_class$0$domain$ 
-02:00070168 $inputUnion_ki$gui_native_class$0$domain$ 
-02:000701A8 $inputUnion_hi$gui_native_class$0$domain$ 
-02:000701D8 $$inline_32$gui_native_class$1$domain$ 
-02:00070208 $$inline_256$gui_native_class$1$domain$ 
-02:00070238 $$inline_80$gui_native_class$1$domain$ 
-02:000709B0 class$gui_api 
-02:000709F4 $scrollInfo$gui_api_class$0$domain$ 
-02:00070A34 $windowPlacement$gui_api_class$0$domain$ 
-02:00070AC0 $dlgTemplate$gui_api_class$0$domain$ 
-02:00070B24 $varArray$gui_api_class$0$domain$ 
-02:00070BA4 $dlgItemTemplate$gui_api_class$0$domain$ 
-02:00070BE0 $monitorInfo$gui_api_class$0$domain$ 
+02:0006EF10 class$gui_native 
+02:0006EFA4 $logfont$gui_native_class$0$domain$ 
+02:0006EFE0 $mouseMovePoint$gui_native_class$0$domain$ 
+02:0006F000 $enumDesktopProc$gui_native_class$0$domain$ 
+02:0006F018 $enumWindowStationProc$gui_native_class$0$domain$ 
+02:0006F048 $copyDataStruct$gui_native_class$0$domain$ 
+02:0006F084 $trackMouseEvent$gui_native_class$0$domain$ 
+02:0006F0E4 $msg$gui_native_class$0$domain$ 
+02:0006F104 $sendAsyncProc$gui_native_class$0$domain$ 
+02:0006F11C $wndProc$gui_native_class$0$domain$ 
+02:0006F170 $wndClassEx$gui_native_class$0$domain$ 
+02:0006F1CC $createstruct$gui_native_class$0$domain$ 
+02:0006F20C $flashInfo$gui_native_class$0$domain$ 
+02:0006F254 $windowPos$gui_native_class$0$domain$ 
+02:0006F2C4 $windowPlacement$gui_native_class$0$domain$ 
+02:0006F344 $windowInfo$gui_native_class$0$domain$ 
+02:0006F3A0 $monitorInfo$gui_native_class$0$domain$ 
+02:0006F408 $monitorInfoEx$gui_native_class$0$domain$ 
+02:0006F428 $monitorEnumProc$gui_native_class$0$domain$ 
+02:0006F47C $dlgTemplate$gui_native_class$0$domain$ 
+02:0006F4D8 $dlgItemTemplate$gui_native_class$0$domain$ 
+02:0006F588 $dlgTemplateEx$gui_native_class$0$domain$ 
+02:0006F5A8 $timerProc$gui_native_class$0$domain$ 
+02:0006F5E4 $accel$gui_native_class$0$domain$ 
+02:0006F640 $menuItemInfo$gui_native_class$0$domain$ 
+02:0006F680 $drawTextParams$gui_native_class$0$domain$ 
+02:0006F6A0 $grayStringProc$gui_native_class$0$domain$ 
+02:0006F6B8 $drawStateProc$gui_native_class$0$domain$ 
+02:0006F6E4 $size$gui_native_class$0$domain$ 
+02:0006F790 $textmetric$gui_native_class$0$domain$ 
+02:0006F7F8 $paintStruct$gui_native_class$0$domain$ 
+02:0006F818 $propEnumProc$gui_native_class$0$domain$ 
+02:0006F870 $helpInfo$gui_native_class$0$domain$ 
+02:0006F890 $wndEnumProc$gui_native_class$0$domain$ 
+02:0006F8CA $gaFlags$gui_native_class$0$domain$ 
+02:0006F8F0 $hookProc$gui_native_class$0$domain$ 
+02:0006F928 $kbdllhookstruct$gui_native_class$0$domain$ 
+02:0006F968 $iconInfo$gui_native_class$0$domain$ 
+02:0006F9B4 $buttonImageList$gui_native_class$0$domain$ 
+02:0006F9D4 $button_imageList_align$gui_native_class$0$domain$ 
+02:0006FA1C $nmBcHotItem$gui_native_class$0$domain$ 
+02:0006FA70 $button_splitInfo$gui_native_class$0$domain$ 
+02:0006FAC0 $nmBcDropdown$gui_native_class$0$domain$ 
+02:0006FAF8 $nmhdr$gui_native_class$0$domain$ 
+02:0006FB64 $nmCustomDraw$gui_native_class$0$domain$ 
+02:0006FBAC $scrollInfo$gui_native_class$0$domain$ 
+02:0006FC30 $scrollBarInfo$gui_native_class$0$domain$ 
+02:0006FC68 $logbrush$gui_native_class$0$domain$ 
+02:0006FCB0 $tcItem$gui_native_class$0$domain$ 
+02:0006FCE4 $tagInitCommonControlsEx$gui_native_class$0$domain$ 
+02:0006FD24 $logPalette$gui_native_class$0$domain$ 
+02:0006FD68 $mouseInput$gui_native_class$0$domain$ 
+02:0006FDB8 $keybdInput$gui_native_class$0$domain$ 
+02:0006FDFC $hardwareInput$gui_native_class$0$domain$ 
+02:0006FE1C $inputUnion$gui_native_class$0$domain$ 
+02:0006FE68 $input$gui_native_class$0$domain$ 
+02:0006FED8 $toolinfo$gui_native_class$0$domain$ 
+02:0006FF40 $nmttdispInfo$gui_native_class$0$domain$ 
+02:0006FF8C $blendFunction$gui_native_class$0$domain$ 
+02:0006FFF4 $chooseFont$gui_native_class$0$domain$ 
+02:00070098 $printdlg$gui_native_class$0$domain$ 
+02:00070118 $printdlgEx$gui_native_class$0$domain$ 
+02:00070158 $inputUnion_mi$gui_native_class$0$domain$ 
+02:00070198 $inputUnion_ki$gui_native_class$0$domain$ 
+02:000701D8 $inputUnion_hi$gui_native_class$0$domain$ 
+02:00070208 $$inline_32$gui_native_class$1$domain$ 
+02:00070238 $$inline_256$gui_native_class$1$domain$ 
+02:00070268 $$inline_80$gui_native_class$1$domain$ 
+02:000709E0 class$gui_api 
+02:00070A24 $scrollInfo$gui_api_class$0$domain$ 
+02:00070A64 $windowPlacement$gui_api_class$0$domain$ 
+02:00070AF0 $dlgTemplate$gui_api_class$0$domain$ 
+02:00070B54 $varArray$gui_api_class$0$domain$ 
+02:00070BD4 $dlgItemTemplate$gui_api_class$0$domain$ 
+02:00070C10 $monitorInfo$gui_api_class$0$domain$ 
 --- From 'Obj\locale_api.25A9E29D.obj'
-02:00070DE0 class$locale_native 
-02:00070E04 $stdBoolFunc$locale_native_class$1$domain$ 
-02:00070E1C $stdBoolFunc$locale_native_class$2$domain$ 
-02:00070E34 $stdBoolFunc$locale_native_class$4$domain$ 
-02:00070E4C $stdBoolFunc$locale_native_class$5$domain$ 
-02:00070E88 $numberfmt$locale_native_class$0$domain$ 
-02:00070F50 class$locale_api 
+02:00070E10 class$locale_native 
+02:00070E34 $stdBoolFunc$locale_native_class$1$domain$ 
+02:00070E4C $stdBoolFunc$locale_native_class$2$domain$ 
+02:00070E64 $stdBoolFunc$locale_native_class$4$domain$ 
+02:00070E7C $stdBoolFunc$locale_native_class$5$domain$ 
+02:00070EB8 $numberfmt$locale_native_class$0$domain$ 
+02:00070F80 class$locale_api 
 --- From 'Obj\memory_api.072B3D5C.obj'
-02:00070FE0 class$memory_native 
-02:0007102C $memory_basic_information$memory_native_class$0$domain$ 
-02:00071094 $memoryStatusEx$memory_native_class$0$domain$ 
-02:00071180 class$memory_api 
+02:00071010 class$memory_native 
+02:0007105C $memory_basic_information$memory_native_class$0$domain$ 
+02:000710C4 $memoryStatusEx$memory_native_class$0$domain$ 
+02:000711B0 class$memory_api 
 --- From 'Obj\multithread_api.6DC4E6F9.obj'
-02:00071210 class$multiThread_native 
-02:00071234 $timerAPCProc$multiThread_native_class$0$domain$ 
-02:000712CC $startupInfo$multiThread_native_class$0$domain$ 
-02:00071308 $processInformation$multiThread_native_class$0$domain$ 
-02:00071328 $threadRunnable$multiThread_native_class$0$domain$ 
-02:00071364 $critical_section$multiThread_native_class$0$domain$ 
-02:000713A4 $m128A$multiThread_native_class$0$domain$ 
-02:000713FC $selectorEntry$multiThread_native_class$0$domain$ 
-02:0007144C $cache_descriptor$multiThread_native_class$0$domain$ 
-02:000714A4 $system_logical_processor_information$multiThread_native_class$0$domain$ 
-02:00071680 class$multiThread_api 
+02:00071240 class$multiThread_native 
+02:00071264 $timerAPCProc$multiThread_native_class$0$domain$ 
+02:000712FC $startupInfo$multiThread_native_class$0$domain$ 
+02:00071338 $processInformation$multiThread_native_class$0$domain$ 
+02:00071358 $threadRunnable$multiThread_native_class$0$domain$ 
+02:00071394 $critical_section$multiThread_native_class$0$domain$ 
+02:000713D4 $m128A$multiThread_native_class$0$domain$ 
+02:0007142C $selectorEntry$multiThread_native_class$0$domain$ 
+02:0007147C $cache_descriptor$multiThread_native_class$0$domain$ 
+02:000714D4 $system_logical_processor_information$multiThread_native_class$0$domain$ 
+02:000716B0 class$multiThread_api 
 --- From 'Obj\registry_api.0E78C5E3.obj'
-02:000717E0 class$registry_native 
-02:0007181C $securityAttr$registry_native_class$0$domain$ 
-02:000718E0 class$registry_api 
+02:00071810 class$registry_native 
+02:0007184C $securityAttr$registry_native_class$0$domain$ 
+02:00071910 class$registry_api 
 --- From 'Obj\runtime_api.0E79B0CD.obj'
-02:00071980 class$runtime_api 
+02:000719B0 class$runtime_api 
 --- From 'Obj\shell_api.D9156D40.obj'
-02:00071AD0 class$shell_native 
-02:00071B3C $shellExecuteInfo$shell_native_class$0$domain$ 
-02:00071B9C $appBarData$shell_native_class$0$domain$ 
-02:00071BE8 $shFileOpStruct$shell_native_class$0$domain$ 
-02:00071C24 $sHNameMapping$shell_native_class$0$domain$ 
-02:00071C68 $shQueryRBinfo$shell_native_class$0$domain$ 
-02:00071D14 $notifyIcondata$shell_native_class$0$domain$ 
-02:00071D74 $sHFileInfo$shell_native_class$0$domain$ 
-02:00071DC0 $browseinfo$shell_native_class$0$domain$ 
-02:00071DE0 $browseCallbackProc$shell_native_class$0$domain$ 
-02:00071E56 $shard$shell_native_class$0$domain$ 
-02:00071EA0 $$inline_128$shell_native_class$1$domain$ 
-02:00071ED0 $$inline_256$shell_native_class$1$domain$ 
-02:00071F00 $$inline_64$shell_native_class$1$domain$ 
-02:00071F30 $$inline_260$shell_native_class$1$domain$ 
-02:00071F60 $$inline_80$shell_native_class$1$domain$ 
-02:00072260 class$shell_api 
+02:00071B00 class$shell_native 
+02:00071B6C $shellExecuteInfo$shell_native_class$0$domain$ 
+02:00071BCC $appBarData$shell_native_class$0$domain$ 
+02:00071C18 $shFileOpStruct$shell_native_class$0$domain$ 
+02:00071C54 $sHNameMapping$shell_native_class$0$domain$ 
+02:00071C98 $shQueryRBinfo$shell_native_class$0$domain$ 
+02:00071D44 $notifyIcondata$shell_native_class$0$domain$ 
+02:00071DA4 $sHFileInfo$shell_native_class$0$domain$ 
+02:00071DF0 $browseinfo$shell_native_class$0$domain$ 
+02:00071E10 $browseCallbackProc$shell_native_class$0$domain$ 
+02:00071E86 $shard$shell_native_class$0$domain$ 
+02:00071ED0 $$inline_128$shell_native_class$1$domain$ 
+02:00071F00 $$inline_256$shell_native_class$1$domain$ 
+02:00071F30 $$inline_64$shell_native_class$1$domain$ 
+02:00071F60 $$inline_260$shell_native_class$1$domain$ 
+02:00071F90 $$inline_80$shell_native_class$1$domain$ 
+02:00072290 class$shell_api 
 --- From 'Obj\string_api.5221196E.obj'
-02:000722F0 class$string_native 
+02:00072320 class$string_native 
 --- From 'Obj\string8_api.41F368A6.obj'
-02:00072390 class$string8_native 
-02:00072430 class$string8_api 
+02:000723C0 class$string8_native 
+02:00072460 class$string8_api 
 --- From 'Obj\systeminformation_api.2DB6162F.obj'
-02:000724C0 class$systemInformation_native 
-02:00072538 $system_Info$systemInformation_native_class$0$domain$ 
-02:00072598 $osVersionInfo$systemInformation_native_class$0$domain$ 
-02:00072614 $osVersionInfoEX$systemInformation_native_class$0$domain$ 
-02:000726C8 $nonclientMetricsXP$systemInformation_native_class$0$domain$ 
-02:00072784 $nonclientMetrics$systemInformation_native_class$0$domain$ 
-02:000727B4 $$inline_128$systemInformation_native_class$1$domain$ 
-02:00072940 class$systemInformation_api 
+02:000724F0 class$systemInformation_native 
+02:00072568 $system_Info$systemInformation_native_class$0$domain$ 
+02:000725C8 $osVersionInfo$systemInformation_native_class$0$domain$ 
+02:00072644 $osVersionInfoEX$systemInformation_native_class$0$domain$ 
+02:000726F8 $nonclientMetricsXP$systemInformation_native_class$0$domain$ 
+02:000727B4 $nonclientMetrics$systemInformation_native_class$0$domain$ 
+02:000727E4 $$inline_128$systemInformation_native_class$1$domain$ 
+02:00072970 class$systemInformation_api 
 --- From 'Obj\time_api.21FCC41B.obj'
-02:00072AA0 class$time_native 
-02:00072B08 $systemTime$time_native_class$0$domain$ 
-02:00072B84 $timeZoneAPI$time_native_class$0$domain$ 
-02:00072BB8 $fileTime$time_native_class$0$domain$ 
-02:00072C18 $reg_tzi_format$time_native_class$0$domain$ 
-02:00072C48 $$inline_32$time_native_class$1$domain$ 
-02:00072D50 class$time_api 
+02:00072AD0 class$time_native 
+02:00072B38 $systemTime$time_native_class$0$domain$ 
+02:00072BB4 $timeZoneAPI$time_native_class$0$domain$ 
+02:00072BE8 $fileTime$time_native_class$0$domain$ 
+02:00072C48 $reg_tzi_format$time_native_class$0$domain$ 
+02:00072C78 $$inline_32$time_native_class$1$domain$ 
+02:00072D80 class$time_api 
 --- From 'Obj\windowsapi.901E9509.obj'
-02:00072DD0 class$windowsAPI 
-02:00072E30 $security_descriptor$windowsAPI_class$0$domain$ 
-02:00072E80 $acl$windowsAPI_class$0$domain$ 
-02:00072EB8 $security_attributes$windowsAPI_class$0$domain$ 
+02:00072E00 class$windowsAPI 
+02:00072E60 $security_descriptor$windowsAPI_class$0$domain$ 
+02:00072EB0 $acl$windowsAPI_class$0$domain$ 
+02:00072EE8 $security_attributes$windowsAPI_class$0$domain$ 
 --- From 'Obj\main.A22FE9BF.obj'
-02:00072F80 class$_builtIn 
-02:00072FA4 $integer$_builtIn_class$0$domain$ 
-02:00072FC4 $unsigned$_builtIn_class$0$domain$ 
-02:00072FE4 $real$_builtIn_class$0$domain$ 
-02:00073010 $real32$_builtIn_class$0$domain$ 
-02:0007303C $$byte$_builtIn_class$0$domain$ 
-02:0007305C $string$_builtIn_class$0$domain$ 
-02:00073070 $symbol$_builtIn_class$0$domain$ 
-02:00073084 $string8$_builtIn_class$0$domain$ 
-02:00073098 $char$_builtIn_class$0$domain$ 
-02:000730AC $binary$_builtIn_class$0$domain$ 
-02:000730C4 $binaryNonAtomic$_builtIn_class$0$domain$ 
-02:000730DC $pointer$_builtIn_class$0$domain$ 
-02:000730F0 $handle$_builtIn_class$0$domain$ 
-02:00073104 $factdb$_builtIn_class$0$domain$ 
-02:00073118 $...$_builtIn_class$0$domain$ 
-02:0007312C $integer64$_builtIn_class$0$domain$ 
-02:00073154 $unsigned64$_builtIn_class$0$domain$ 
-02:0007317C $any$_builtIn_class$0$domain$ 
-02:00073190 $integerNative$_builtIn_class$0$domain$ 
-02:000731B0 $unsignedNative$_builtIn_class$0$domain$ 
-02:00073200 $*$_builtIn_class$1$domain$ 
-02:00073230 $_someType$_builtIn_class$0$domain$ 
-02:00073266 $boolean$_builtIn_class$0$domain$ 
-02:000732AA $compareResult$_builtIn_class$0$domain$ 
-02:000732E0 $$inline_1$_builtIn_class$1$domain$ 
-02:00073530 class$_global 
-02:00073570 class$main 
+02:00072FB0 class$_builtIn 
+02:00072FD4 $integer$_builtIn_class$0$domain$ 
+02:00072FF4 $unsigned$_builtIn_class$0$domain$ 
+02:00073014 $real$_builtIn_class$0$domain$ 
+02:00073040 $real32$_builtIn_class$0$domain$ 
+02:0007306C $$byte$_builtIn_class$0$domain$ 
+02:0007308C $string$_builtIn_class$0$domain$ 
+02:000730A0 $symbol$_builtIn_class$0$domain$ 
+02:000730B4 $string8$_builtIn_class$0$domain$ 
+02:000730C8 $char$_builtIn_class$0$domain$ 
+02:000730DC $binary$_builtIn_class$0$domain$ 
+02:000730F4 $binaryNonAtomic$_builtIn_class$0$domain$ 
+02:0007310C $pointer$_builtIn_class$0$domain$ 
+02:00073120 $handle$_builtIn_class$0$domain$ 
+02:00073134 $factdb$_builtIn_class$0$domain$ 
+02:00073148 $...$_builtIn_class$0$domain$ 
+02:0007315C $integer64$_builtIn_class$0$domain$ 
+02:00073184 $unsigned64$_builtIn_class$0$domain$ 
+02:000731AC $any$_builtIn_class$0$domain$ 
+02:000731C0 $integerNative$_builtIn_class$0$domain$ 
+02:000731E0 $unsignedNative$_builtIn_class$0$domain$ 
+02:00073230 $*$_builtIn_class$1$domain$ 
+02:00073260 $_someType$_builtIn_class$0$domain$ 
+02:00073296 $boolean$_builtIn_class$0$domain$ 
+02:000732DA $compareResult$_builtIn_class$0$domain$ 
+02:00073310 $$inline_1$_builtIn_class$1$domain$ 
+02:00073560 class$_global 
+02:000735A0 class$main 
 Frame 074000   Size 000170.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 074000:000000 00015C   .data::DATA::DGROUP F=4
 074000:00015C 00000C   .bss::BSS::DGROUP F=4
@@ -4901,442 +4906,441 @@ Frame 079000   Size 000DD0.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
 079000:000004 000DC0   VIPtpl$C::VIPtpl$C::VIPtpl F=4
 079000:000DC4 000008   VIPtpl$E::VIPtpl$E::VIPtpl F=4
 Frame 07A000   Size 000060.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
-07A000:000000 000054   .gcroot::.gcroot::.gcroot F=4
---- Total Cnt   =  3831 --------
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. ?FinishRetractWCTS@RunTime@VIP@@YGXPAVrFactItem@12@PAPAV312@@Z 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?create@RunTime@VIP@@YGPBGIPBG@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenuItemInfoW@16 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseChar@RunTime@VIP@@YGGQAVRInputStreamImpl@12@@Z 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _WaitForSingleObject@8 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _ReadFile@20 
-[import] 'Obj\exception.544F7452.obj' vipKernel.dll. ?VIP_ErrorExitCreate@Kernel@VIP@@YGPAVtrapInfo_interface@12@I@Z 
-[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?subUnsigned64WOO_prolog@RunTime@VIP@@YG_K_K0@Z 
-[import] 'Obj\exception.544F7452.obj' vipKernel.dll. ?GetLineFromAddrProlog@Kernel@VIP@@YGXPBXPAIPAPBG@Z 
-[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?addUnsigned64WOO_prolog@RunTime@VIP@@YG_K_K0@Z 
-[import] 'Obj\exe_api.A0303A40.obj' KERNEL32.dll. _GetModuleFileNameW@12 
-[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitAnd64@RunTime@VIP@@YA_K_K0@Z 
+07A000:000000 00005C   .gcroot::.gcroot::.gcroot F=4
+--- Total Cnt   =  3836 --------
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowPlacement@8 
+[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _CoInitializeEx@8 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?functorlessTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?searchch@RunTime@VIP@@YG_NPBGGQAI@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClassLongW@8 
+[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharAlphaNumericW@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. ?Error_DetermFactIsAlreadyAsserted@RunTime@VIP@@YAXQBVtypeLibrary@12@I@Z 
+[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharUpperW@4 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' vipRun.dll. ?Error_SingleFactHasNoValue@RunTime@VIP@@YAXQBVtypeLibrary@12@I@Z 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?trimLast@RunTime@VIP@@YAPBGPBG@Z 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _WriteConsoleW@20 
+[import] 'Obj\memory.9BD3BF38.obj' KERNEL32.dll. _IsBadWritePtr@8 
+[import] 'Obj\filesystem.57D9C483.obj' vipRun.dll. ?InitInputParser@RunTime@VIP@@YGPAVRInputStreamImpl@12@QAVRROBufferProvider@12@@Z 
+[import] 'Obj\memory.9BD3BF38.obj' KERNEL32.dll. _IsBadReadPtr@8 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _ReadConsoleW@20 
+[import] 'Obj\runtime_api.0E79B0CD.obj' KERNEL32.dll. _GetCurrentProcess@0 
+[import] 'Obj\exception.544F7452.obj' KERNEL32.dll. _SetErrorMode@4 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?AllocAtomicHeap@Kernel@VIP@@YGPAEI@Z 
 [import] 'Obj\exception.544F7452.obj' KERNEL32.dll. _VirtualQuery@12 
-[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?Comparison_U64@RunTime@VIP@@YG?AW4compareResult@_builtIn_class@@_K0@Z 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?AllocHeap@Kernel@VIP@@YGPAEI@Z 
+[import] 'Obj\exe_api.A0303A40.obj' KERNEL32.dll. _GetModuleFileNameW@12 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?AllocUncollectableHeap@Kernel@VIP@@YGPAEI@Z 
+[import] 'Obj\exception.544F7452.obj' vipKernel.dll. ?GetLineFromAddrProlog@Kernel@VIP@@YGXPBXPAIPAPBG@Z 
+[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?AllocateObjectEx@RunTime@VIP@@YGPAEQBVRObjectClassDescriptorInfo@12@PAP6GXPAX@Z@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _ReadFile@20 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _TranslateAccelerator@12 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetLastError@0 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EnableWindow@8 
+[import] 'Obj\locale_api.25A9E29D.obj' vipRun.dll. ?bitOr@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetIconInfo@8 
+[import] 'Obj\runtime_api.0E79B0CD.obj' vipRun.dll. ?bitAnd@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetTimer@16 
+[import] 'Obj\exception.544F7452.obj' vipKernel.dll. ?VIP_ErrorExitCreate@Kernel@VIP@@YGPAVtrapInfo_interface@12@I@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenuItemRect@16 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?write2String@RunTime@VIP@@YGQBGIIQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SendInput@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetWindowLongW@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMonitorInfoW@8 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?format2String@RunTime@VIP@@YGQBGQBGQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?copyString2inline@RunTime@VIP@@YGXQAXQBXII@Z 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleMode@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MonitorFromWindow@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowLongW@8 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?searchBack@RunTime@VIP@@YG_NPBG0QAI@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' KERNEL32.dll. _SetLastError@4 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?RegisterWeakPointer@Kernel@VIP@@YGXPAPAXPAX@Z 
+[import] 'Obj\shell_api.D9156D40.obj' SHELL32.dll. _ShellExecuteW@24 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?Unify@RunTime@VIP@@YGXQBVtypeLibrary@12@PAX1@Z 
+[import] 'Obj\registry.88C8A89A.obj' KERNEL32.dll. _FormatMessageW@28 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?replace@RunTime@VIP@@YGPBGPBG00H_NAAI@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClientRect@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _GetStockObject@4 
+[import] 'Obj\shell_api.D9156D40.obj' SHELL32.dll. _ShellExecuteExW@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?real64TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitNot@RunTime@VIP@@YAII@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _UpdateLayeredWindow@36 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EndPaint@8 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?enumericFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\exception.544F7452.obj' KERNEL32.dll. _GetCurrentThreadId@0 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetWindowPos@28 
+[import] 'Obj\shell_api.D9156D40.obj' SHLWAPI.dll. _SHCreateStreamOnFileEx@24 
+[import] 'Obj\binary.9C7C16C6.obj' vipRun.dll. ?calculateCRC@RunTime@VIP@@YAHQBVTBinary@@H@Z 
+[import] 'Obj\shell_api.D9156D40.obj' SHELL32.dll. _CommandLineToArgvW@8 
+[import] 'Obj\filesystem_api.1C9354BA.obj' vipRun.dll. ?searchForChar@RunTime@VIP@@YGIPBGGI@Z 
+[import] 'Obj\shell_api.D9156D40.obj' vipRun.dll. __imp_?otherArrowTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\locale_api.25A9E29D.obj' KERNEL32.dll. _GetNumberFormatW@24 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _FlushConsoleInputBuffer@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _DrawFocusRect@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _BeginPaint@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _Rectangle@20 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _FillConsoleOutputCharacterW@20 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _AttachThreadInput@12 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleCursorPosition@8 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?frontToken@RunTime@VIP@@YG_NPBGAAPAG1@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExIU@RunTime@VIP@@YGIPBVbaseIntegerDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@I@12@HH@Z 
+[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?trunc@RunTime@VIP@@YANN@Z 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _FreeConsole@0 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToUnsigned64@RunTime@VIP@@YG_KN@Z 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleTitleW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _DestroyWindow@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CreateWindowExW@48 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetPriorityClipboardFormat@8 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleTitleW@4 
+[import] 'Obj\programcontrol.5D08C78A.obj' vipKernel.dll. ?SetPrologExceptionPredicate@Kernel@VIP@@YGXQBVRPrologExceptionPredicateStruct@12@PAPAV312@@Z 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' vipRun.dll. ?create@RunTime@VIP@@YAPBGI@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EmptyClipboard@0 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _RegisterClassExW@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EnumClipboardFormats@4 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleMode@8 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?tryCheckPosition@RunTime@VIP@@YGXIPBG@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _GetTextMetricsW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipKernel.dll. ?OSZeroMemory@Kernel@VIP@@YAXPAXI@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _GetTextExtentPoint32W@16 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CountClipboardFormats@0 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetTempPathW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _RegisterClipboardFormatW@4 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleScreenBufferInfo@8 
+[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalSize@4 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleTextAttribute@8 
+[import] 'Obj\memory_api.072B3D5C.obj' vipKernel.dll. ?OSlstrlen@Kernel@VIP@@YGHPBG@Z 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleCP@0 
+[import] 'Obj\time_api.21FCC41B.obj' vipKernel.dll. ?AllocHeapWithContext@Kernel@VIP@@YGQAEIII@Z 
+[import] 'Obj\registry_api.0E78C5E3.obj' vipKernel.dll. ?Succeed_Prolog@Kernel@VIP@@YAXXZ 
+[import] 'Obj\windowsapi.901E9509.obj' vipKernel.dll. ?MEM_alloc_listElementWithContextP@Kernel@VIP@@YGPBU?$__packedList_struct@E@@XZ 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetWindowPlacement@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ChangeClipboardChain@8 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleOutputCP@0 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardViewer@0 
+[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetConsoleCP@4 
+[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _LocalFree@4 
+[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetConsoleOutputCP@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CloseClipboard@0 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExII@RunTime@VIP@@YGHPBVbaseIntegerDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@H@12@HH@Z 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToInteger@RunTime@VIP@@YGHN@Z 
+[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _GetStdHandle@4 
+[import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?AllocAtomicHeapWithContext@Kernel@VIP@@YGQAEIII@Z 
+[import] 'Obj\exceptiondump.174B23B9.obj' USER32.dll. _MessageBoxW@16 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateEventW@16 
+[import] 'Obj\string8_api.41F368A6.obj' KERNEL32.dll. _WideCharToMultiByte@32 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?getListMember_nd_prolog_opt@RunTime@VIP@@YAXXZ 
+[import] 'Obj\string8_api.41F368A6.obj' USER32.dll. _CharNextExA@12 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenEventW@12 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetNumberOfConsoleInputEvents@8 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _SetEvent@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?subInteger64_prolog@RunTime@VIP@@YG_J_J0@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EndMenu@0 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetVersionExW@4 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _ResetEvent@4 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _WaitForSingleObject@8 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _PulseEvent@4 
+[import] 'Obj\memory_api.072B3D5C.obj' vipRun.dll. ?ConvertExUI@RunTime@VIP@@YGHPBVbaseUnsignedDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@H@12@IH@Z 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateMutexW@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetUpdateRect@12 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenMutexW@12 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetSystemInfo@4 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _ReleaseMutex@4 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetNativeSystemInfo@4 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateSemaphoreW@16 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetFileType@4 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenSemaphoreW@12 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' ADVAPI32.dll. _GetUserNameW@8 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _ReleaseSemaphore@12 
+[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _ReadConsoleInputW@16 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateWaitableTimerW@12 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' Secur32.dll. _GetUserNameExW@12 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenWaitableTimerW@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExUR@RunTime@VIP@@YGNPBVbaseUnsignedDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@N@12@IH@Z 
+[import] 'Obj\time_api.21FCC41B.obj' vipKernel.dll. ?RunTimeError_FloatDivideByZero@Kernel@VIP@@YAXXZ 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetComputerNameW@8 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _SetWaitableTimer@24 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExIR@RunTime@VIP@@YGNPBVbaseIntegerDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@N@12@HH@Z 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?arctan@RunTime@VIP@@YANN@Z 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetComputerNameExW@12 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?sqrt@RunTime@VIP@@YANN@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetUpdateRgn@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenuItemCount@4 
+[import] 'Obj\systeminformation_api.2DB6162F.obj' USER32.dll. _SystemParametersInfoW@16 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?packedCompoundFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?int64mod_prolog@RunTime@VIP@@YG_J_J0@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?packedCompoundTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\filesystem.57D9C483.obj' VERSION.dll. _VerQueryValueW@16 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenu@4 
+[import] 'Obj\filesystem.57D9C483.obj' VERSION.dll. _GetFileVersionInfoSizeW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetDC@4 
 [import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ScrollWindowEx@32 
 [import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?abs_rr@RunTime@VIP@@YANN@Z 
-[import] 'Obj\exception.544F7452.obj' KERNEL32.dll. _GetCurrentThreadId@0 
-[import] 'Obj\gui_api.5B4BA4CC.obj' KERNEL32.dll. _SetLastError@4 
-[import] 'Obj\shell_api.D9156D40.obj' vipRun.dll. __imp_?otherArrowTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?toString@RunTime@VIP@@YGPBGQBVtypeLibrary@12@PAX@Z 
-[import] 'Obj\memory_api.072B3D5C.obj' vipRun.dll. ?ConvertExUI@RunTime@VIP@@YGHPBVbaseUnsignedDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@H@12@IH@Z 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?ConvertExRR@RunTime@VIP@@YGNPBV?$numericTypeDescriptor@N@12@0NH@Z 
 [import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetScrollInfo@16 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?sqrt@RunTime@VIP@@YANN@Z 
-[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetConsoleOutputCP@4 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?arctan@RunTime@VIP@@YANN@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetScrollInfo@12 
-[import] 'Obj\time_api.21FCC41B.obj' vipKernel.dll. ?RunTimeError_FloatDivideByZero@Kernel@VIP@@YAXXZ 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleOutputCP@0 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?exp@RunTime@VIP@@YANN@Z 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleCP@0 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?ln@RunTime@VIP@@YANN@Z 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleTextAttribute@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _TrackMouseEvent@4 
-[import] 'Obj\registry_api.0E78C5E3.obj' vipKernel.dll. ?Succeed_Prolog@Kernel@VIP@@YAXXZ 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CancelIo@4 
-[import] 'Obj\locale_api.25A9E29D.obj' KERNEL32.dll. _GetThreadLocale@0 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _ReadDirectoryChangesW@32 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?tryCheckPosition@RunTime@VIP@@YGXIPBG@Z 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?enumericTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\string.B0A67F43.obj' KERNEL32.dll. _IsBadStringPtrW@8 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?round@RunTime@VIP@@YANN@Z 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?replace@RunTime@VIP@@YGPBGPBG00H_N@Z 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToInteger@RunTime@VIP@@YGHN@Z 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?replace@RunTime@VIP@@YGPBGPBG00H_NAAI@Z 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToUnsigned@RunTime@VIP@@YGIN@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' vipRun.dll. ?search@RunTime@VIP@@YG_NPBG0QAI@Z 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToInteger64@RunTime@VIP@@YG_JN@Z 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?searchBack@RunTime@VIP@@YG_NPBG0QAI@Z 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToUnsigned64@RunTime@VIP@@YG_KN@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExIR@RunTime@VIP@@YGNPBVbaseIntegerDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@N@12@HH@Z 
-[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?trunc@RunTime@VIP@@YANN@Z 
-[import] 'Obj\filesystem.57D9C483.obj' VERSION.dll. _VerQueryValueW@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _DrawFocusRect@8 
-[import] 'Obj\filesystem.57D9C483.obj' VERSION.dll. _GetFileVersionInfoSizeW@8 
-[import] 'Obj\shell_api.D9156D40.obj' SHELL32.dll. _ShellExecuteW@24 
-[import] 'Obj\string.B0A67F43.obj' USER32.dll. _CharLowerW@4 
-[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?universalNumericConvert4_ex@RunTime@VIP@@YGXPBVnumericTypeDescriptor_internal@12@0HPAX_N@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CreateDialogIndirectParamW@20 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?enumericFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\binary.9C7C16C6.obj' vipKernel.dll. ?MEM_alloc_nullfunctor@Kernel@VIP@@YGPBEI@Z 
-[import] 'Obj\shell_api.D9156D40.obj' SHELL32.dll. _ShellExecuteExW@4 
-[import] 'Obj\binary.9C7C16C6.obj' vipRun.dll. ?binarySearch@RunTime@VIP@@YAIPBEI0I@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _Rectangle@20 
-[import] 'Obj\registry_api.0E78C5E3.obj' KERNEL32.dll. _lstrlenA@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?real64TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleMode@8 
-[import] 'Obj\vpidomains.CE78C30C.obj' vipRun.dll. __imp_?compoundTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowPlacement@8 
-[import] 'Obj\shell_api.D9156D40.obj' SHLWAPI.dll. _SHCreateStreamOnFileEx@24 
-[import] 'Obj\locale_api.25A9E29D.obj' KERNEL32.dll. _GetNumberFormatW@24 
-[import] 'Obj\shell_api.D9156D40.obj' SHELL32.dll. _CommandLineToArgvW@8 
-[import] 'Obj\string.B0A67F43.obj' KERNEL32.dll. _lstrlenW@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowLongW@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipKernel.dll. ?OSZeroMemory@Kernel@VIP@@YAXPAXI@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetActiveWindow@4 
-[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharAlphaW@4 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _ReadConsoleW@20 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _CopyFileW@12 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?RegisterWeakPointer@Kernel@VIP@@YGXPAPAXPAX@Z 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _MoveFileExW@12 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _AttachThreadInput@12 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _DeleteFileW@4 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _PostQueuedCompletionStatus@16 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?inlineTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowThreadProcessId@8 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetFileAttributesW@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetWindowLongW@12 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _FindFirstFileW@8 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?UnRegisterWeakPointer@Kernel@VIP@@YGXPAPAX@Z 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleTitleW@8 
-[import] 'Obj\filesystem.57D9C483.obj' vipRun.dll. ?InitInputParser@RunTime@VIP@@YGPAVRInputStreamImpl@12@QAVRROBufferProvider@12@@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _IsDialogMessageW@8 
-[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?compareTerms@RunTime@VIP@@YG?AW4compareResult@_builtIn_class@@QBVtypeLibrary@12@PAX1@Z 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _FindNextFileW@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _LoadImageW@24 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _FreeConsole@0 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _WriteConsoleW@20 
-[import] 'Obj\time_api.21FCC41B.obj' vipKernel.dll. ?AllocHeapWithContext@Kernel@VIP@@YGQAEIII@Z 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' vipRun.dll. ?Error_SingleFactHasNoValue@RunTime@VIP@@YAXQBVtypeLibrary@12@I@Z 
-[import] 'Obj\windowsapi.901E9509.obj' vipKernel.dll. ?MEM_alloc_listElementWithContextP@Kernel@VIP@@YGPBU?$__packedList_struct@E@@XZ 
-[import] 'Obj\console.043C10C8.obj' vipRun.dll. ?Error_DetermFactIsAlreadyAsserted@RunTime@VIP@@YAXQBVtypeLibrary@12@I@Z 
-[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalSize@4 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?memProf_ContextOpen@Kernel@VIP@@YGIII@Z 
-[import] 'Obj\memory_api.072B3D5C.obj' vipKernel.dll. ?OSlstrlen@Kernel@VIP@@YGHPBG@Z 
-[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?objectConversion@RunTime@VIP@@YGQBVRObject@12@QBVscopeDescriptor@12@QBV312@H@Z 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?InitInputParser@RunTime@VIP@@YGPAVRInputStreamImpl@12@QAVRROBufferProvider@12@QAEI@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClassLongW@8 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetTempFileNameW@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetClassLongW@12 
-[import] 'Obj\time_api.21FCC41B.obj' vipKernel.dll. ?AllocAtomicHeapWithContext@Kernel@VIP@@YGQAEIII@Z 
-[import] 'Obj\runtime_api.0E79B0CD.obj' KERNEL32.dll. _GetCurrentProcess@0 
-[import] 'Obj\windowsapi.901E9509.obj' vipKernel.dll. ?OSCopyMemory@Kernel@VIP@@YAXPAXPBXI@Z 
-[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?sizeOfTerm@RunTime@VIP@@YGIQBVtypeLibrary@12@PAX@Z 
-[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _LocalFree@4 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?memProf_ContextClose@Kernel@VIP@@YGXI@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _GetTextMetricsW@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowRect@8 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CloseHandle@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?firstBranchObjectConversion@RunTime@VIP@@YGQBVRObject@12@QBVscopeDescriptor@12@QBV312@H@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _KillTimer@8 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?AllocUncollectableHeap@Kernel@VIP@@YGPAEI@Z 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateEventW@16 
-[import] 'Obj\string8.302F7782.obj' KERNEL32.dll. _IsValidCodePage@4 
-[import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?Run_Fail@Kernel@VIP@@YAXXZ 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowTextLengthW@4 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenEventW@12 
-[import] 'Obj\string8_api.41F368A6.obj' KERNEL32.dll. _WideCharToMultiByte@32 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _SetEvent@4 
-[import] 'Obj\string8_api.41F368A6.obj' USER32.dll. _CharNextExA@12 
-[import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?AllocHeapWCTS@Kernel@VIP@@YGQAEIIII@Z 
-[import] 'Obj\string8.302F7782.obj' KERNEL32.dll. _IsBadStringPtrA@8 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _ResetEvent@4 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?AllocHeap@Kernel@VIP@@YGPAEI@Z 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _PulseEvent@4 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetVersionExW@4 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateMutexW@12 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _DestroyWindow@4 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenMutexW@12 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?AllocAtomicHeap@Kernel@VIP@@YGPAEI@Z 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _ReleaseMutex@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _ExtTextOutW@32 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateSemaphoreW@16 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetSystemInfo@4 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenSemaphoreW@12 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetNativeSystemInfo@4 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _ReleaseSemaphore@12 
-[import] 'Obj\memory.9BD3BF38.obj' KERNEL32.dll. _IsBadReadPtr@8 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CreateWaitableTimerW@12 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' ADVAPI32.dll. _GetUserNameW@8 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _OpenWaitableTimerW@12 
-[import] 'Obj\memory.9BD3BF38.obj' KERNEL32.dll. _IsBadWritePtr@8 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?packedCompoundFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' Secur32.dll. _GetUserNameExW@12 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _SetWaitableTimer@24 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?ReleaseHeap@Kernel@VIP@@YGXPAE@Z 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _SearchPathW@24 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetComputerNameW@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenuItemRect@16 
-[import] 'Obj\vpidomains.CE78C30C.obj' vipRun.dll. __imp_?compoundFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHGetFolderPathW@20 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' KERNEL32.dll. _GetComputerNameExW@12 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetSystemDirectoryW@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetOpenClipboardWindow@0 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetWindowsDirectoryW@8 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' USER32.dll. _SystemParametersInfoW@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SendInput@12 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetQueuedCompletionStatus@20 
-[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHBrowseForFolderW@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _InvalidateRect@12 
-[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?writeBytes2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@QBEI@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetPriorityClipboardFormat@8 
-[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?saveDatabase@RunTime@VIP@@YGXQBVfactDbValue@12@QAVROutputStreamImpl@12@@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _BringWindowToTop@4 
+[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitAnd64@RunTime@VIP@@YA_K_K0@Z 
+[import] 'Obj\filesystem.57D9C483.obj' VERSION.dll. _GetFileVersionInfoW@16 
 [import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _SetProcessAffinityMask@8 
-[import] 'Obj\string8.302F7782.obj' vipRun.dll. ?bitRight@RunTime@VIP@@YAIII@Z 
-[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitNot@RunTime@VIP@@YAII@Z 
-[import] 'Obj\string8.302F7782.obj' vipRun.dll. ?bitLeft@RunTime@VIP@@YAIII@Z 
-[import] 'Obj\list.1520BD2B.obj' vipRun.dll. ?CompareTerms_Prolog@RunTime@VIP@@YA?AW4compareResult@_builtIn_class@@XZ 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _IsClipboardFormatAvailable@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExIU@RunTime@VIP@@YGIPBVbaseIntegerDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@I@12@HH@Z 
-[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitXor@RunTime@VIP@@YAIII@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMonitorInfoW@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetForegroundWindow@0 
-[import] 'Obj\runtime_api.0E79B0CD.obj' vipRun.dll. ?bitAnd@RunTime@VIP@@YAIII@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EmptyClipboard@0 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _BeginPaint@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetForegroundWindow@4 
-[import] 'Obj\locale_api.25A9E29D.obj' vipRun.dll. ?bitOr@RunTime@VIP@@YAIII@Z 
-[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitOr64@RunTime@VIP@@YA_K_K0@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EndPaint@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardFormatNameW@12 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _GetStockObject@4 
-[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitNot64@RunTime@VIP@@YA_K_K@Z 
-[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegOpenKeyExW@20 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CreateIoCompletionPort@16 
-[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegCloseKey@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?unsigned32TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegCreateKeyExW@36 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?unsigned8TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?consultDatabase@RunTime@VIP@@YGXQBVfactDbValue@12@QAVRInputStreamImpl@12@@Z 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetSystemTimeAsFileTime@4 
-[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegEnumKeyExW@32 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetOverlappedResult@16 
-[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegSetValueExW@24 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _FileTimeToSystemTime@8 
-[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegQueryValueExW@24 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetFocus@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?functorlessFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\core.4BC2D97D.obj' vipRun.dll. __imp_?unsigned16TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?functorlessTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _SystemTimeToFileTime@8 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseLine@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _DuplicateHandle@28 
-[import] 'Obj\list.1520BD2B.obj' vipRun.dll. ?isListMember_prolog@RunTime@VIP@@YAXXZ 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _FlushFileBuffers@4 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?Unify@RunTime@VIP@@YGXQBVtypeLibrary@12@PAX1@Z 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetTimeZoneInformation@4 
-[import] 'Obj\runtime_api.0E79B0CD.obj' USER32.dll. _GetSystemMetrics@4 
-[import] 'Obj\core.4BC2D97D.obj' vipRun.dll. __imp_?integer8TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?write2String@RunTime@VIP@@YGQBGIIQBVrEllipsisArguments@12@@Z 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _SystemTimeToTzSpecificLocalTime@12 
-[import] 'Obj\registry.88C8A89A.obj' KERNEL32.dll. _FormatMessageW@28 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?prologArrowTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetUpdateRgn@12 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _TzSpecificLocalTimeToSystemTime@12 
-[import] 'Obj\exceptiondump.174B23B9.obj' vipRun.dll. ?tryString2Term@RunTime@VIP@@YGXQBVtypeLibrary@12@PBGPAPAX@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _WriteFile@20 
-[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _GetStdHandle@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EnumClipboardFormats@4 
-[import] 'Obj\systeminformation_api.2DB6162F.obj' vipRun.dll. ?create@RunTime@VIP@@YAPBGI@Z 
-[import] 'Obj\filesystem.57D9C483.obj' vipRun.dll. __imp_?integer16TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. __imp_?functorlessUnionTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetParent@4 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetConsoleScreenBufferInfo@8 
-[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?GetTrapTop@Kernel@VIP@@YGQAVTBackTrackBlock@12@XZ 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?frontToken@RunTime@VIP@@YG_NPBGAAPAG1@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetScrollInfo@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CreateAcceleratorTableW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetScrollRange@16 
 [import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?SetTrapTop@Kernel@VIP@@YGXPAVTBackTrackBlock@12@@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?subInteger64_prolog@RunTime@VIP@@YG_J_J0@Z 
-[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?uint64mod_prolog@RunTime@VIP@@YG_K_K0@Z 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetFileType@4 
-[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?addUnsigned64_prolog@RunTime@VIP@@YG_K_K0@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?int64mod_prolog@RunTime@VIP@@YG_J_J0@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CountClipboardFormats@0 
 [import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetScrollRange@20 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetLongPathNameW@12 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?GetTrapTop@Kernel@VIP@@YGQAVTBackTrackBlock@12@XZ 
+[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?toString@RunTime@VIP@@YGPBGQBVtypeLibrary@12@PAX@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _SelectObject@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CreateDialogIndirectParamW@20 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _DeleteObject@4 
 [import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CreateDialogParamW@20 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetShortPathNameW@12 
-[import] 'Obj\filesystem_api.1C9354BA.obj' vipRun.dll. ?searchForChar@RunTime@VIP@@YGIPBGGI@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _SetCurrentDirectoryW@4 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?trimLast@RunTime@VIP@@YAPBGPBG@Z 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetDateFormatW@24 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?searchch@RunTime@VIP@@YG_NPBGGQAI@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetCurrentDirectoryW@8 
-[import] 'Obj\filesystem_api.1C9354BA.obj' vipKernel.dll. ?MEM_alloc_listElementWCAP@Kernel@VIP@@YGPBU?$__packedList_struct@E@@XZ 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetTimeFormatW@24 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleTitleW@4 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetDiskFreeSpaceExW@16 
-[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharLowerW@4 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _SetVolumeLabelW@8 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?log@RunTime@VIP@@YANN@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _MoveFileW@8 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _FindClose@4 
-[import] 'Obj\programcontrol.5D08C78A.obj' vipKernel.dll. ?SetPrologExceptionPredicate@Kernel@VIP@@YGXQBVRPrologExceptionPredicateStruct@12@PAPAV312@@Z 
-[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalFree@4 
-[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?mulUnsigned64_prolog@RunTime@VIP@@YG_K_K0@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _TranslateAccelerator@12 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CreateDirectoryW@8 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?Comparison_I64@RunTime@VIP@@YG?AW4compareResult@_builtIn_class@@_J0@Z 
-[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?universalNumericConvert8_ex@RunTime@VIP@@YGXPBVnumericTypeDescriptor_internal@12@0_JPAX_N@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _GetTextExtentPoint32W@16 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?typeLibraryVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?addInteger64_prolog@RunTime@VIP@@YG_J_J0@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _RemoveDirectoryW@4 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CreateFileW@28 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetParent@8 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _SetFileAttributesW@8 
-[import] 'Obj\windowsapi.901E9509.obj' vipRun.dll. __imp_?alignedFunctorlessFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?Stkb3@Kernel@VIP@@YAXXZ 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _RegisterClipboardFormatW@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. ?AssertZNonDetermFactWCTS@RunTime@VIP@@YGXITRTerm@12@PAVrFactList@12@II@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ClientToScreen@8 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetFileAttributesExW@12 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardData@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?factFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\string8_api.41F368A6.obj' KERNEL32.dll. _MultiByteToWideChar@24 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _RegisterClassExW@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetClipboardData@8 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _FillConsoleOutputCharacterW@20 
-[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetStdHandle@8 
-[import] 'Obj\filesystem.57D9C483.obj' vipKernel.dll. ?OSCompareMemory@Kernel@VIP@@YGHPBX0I@Z 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?interfaceTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?RetractFactDataBaseWCTS@RunTime@VIP@@YGXQBVfactDbValue@12@@Z 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?integer32TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CancelWaitableTimer@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?scopeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetDriveTypeW@4 
-[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetConsoleCtrlHandler@8 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _SetThreadContext@8 
-[import] 'Obj\windowsapi.901E9509.obj' vipRun.dll. ?ErrorRangeSigned@RunTime@VIP@@YGXQBV?$numericTypeDescriptor@H@12@H@Z 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _GetThreadSelectorEntry@12 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ScreenToClient@8 
-[import] 'Obj\filesystem.57D9C483.obj' ole32.dll. _CoTaskMemFree@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ChangeClipboardChain@8 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _FlushConsoleInputBuffer@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExUU@RunTime@VIP@@YGIPBVbaseUnsignedDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@I@12@IH@Z 
-[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?write2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@IIQBVrEllipsisArguments@12@@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetVolumeInformationW@32 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?copyString2inline@RunTime@VIP@@YGXQAXQBXII@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardViewer@0 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MonitorFromRect@8 
 [import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _AdjustWindowRectEx@16 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseString@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@I@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _SetFilePointerEx@20 
-[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetLastError@0 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetFileSizeEx@8 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?inlineTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ScreenToClient@8 
+[import] 'Obj\filesystem.57D9C483.obj' vipRun.dll. ?searchBackCh@RunTime@VIP@@YGIPBGG@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ClientToScreen@8 
+[import] 'Obj\string.B0A67F43.obj' KERNEL32.dll. _lstrlenW@4 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?consultDatabase@RunTime@VIP@@YGXQBVfactDbValue@12@QAVRInputStreamImpl@12@@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' vipKernel.dll. ?MEM_alloc_listElementWCAP@Kernel@VIP@@YGPBU?$__packedList_struct@E@@XZ 
+[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegOpenKeyExW@20 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _CopyFileW@12 
+[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegCloseKey@4 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetSystemTimeAsFileTime@4 
+[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegCreateKeyExW@36 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _MoveFileExW@12 
+[import] 'Obj\list.1520BD2B.obj' vipRun.dll. ?isListMember_prolog@RunTime@VIP@@YAXXZ 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _FileTimeToSystemTime@8 
+[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegEnumKeyExW@32 
+[import] 'Obj\vpidomains.CE78C30C.obj' vipRun.dll. __imp_?compoundTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegSetValueExW@24 
+[import] 'Obj\vpidomains.CE78C30C.obj' vipRun.dll. __imp_?compoundFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegQueryValueExW@24 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _SystemTimeToFileTime@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetForegroundWindow@4 
+[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitNot64@RunTime@VIP@@YA_K_K@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetForegroundWindow@0 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _DeleteFileW@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _BringWindowToTop@4 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetTimeZoneInformation@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _InvalidateRect@12 
+[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitOr64@RunTime@VIP@@YA_K_K0@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?firstBranchObjectConversion@RunTime@VIP@@YGQBVRObject@12@QBVscopeDescriptor@12@QBV312@H@Z 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _SystemTimeToTzSpecificLocalTime@12 
+[import] 'Obj\runtime_api.0E79B0CD.obj' USER32.dll. _GetSystemMetrics@4 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetFileAttributesW@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?unsigned32TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _TzSpecificLocalTimeToSystemTime@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetClassLongW@12 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _FindFirstFileW@8 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?ReleaseHeap@Kernel@VIP@@YGXPAE@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CancelIo@4 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?log@RunTime@VIP@@YANN@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _FindClose@4 
+[import] 'Obj\string8.302F7782.obj' KERNEL32.dll. _IsBadStringPtrA@8 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _ReadDirectoryChangesW@32 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExUU@RunTime@VIP@@YGIPBVbaseUnsignedDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@I@12@IH@Z 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _FindNextFileW@8 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?isAlpha@RunTime@VIP@@YG_NPBG@Z 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetTempFileNameW@16 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. __imp_?functorlessUnionTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?uint64mod_prolog@RunTime@VIP@@YG_K_K0@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _KillTimer@8 
+[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?addUnsigned64_prolog@RunTime@VIP@@YG_K_K0@Z 
+[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?sizeOfTerm@RunTime@VIP@@YGIQBVtypeLibrary@12@PAX@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CreateFileW@28 
+[import] 'Obj\string.B0A67F43.obj' USER32.dll. _CharUpperW@4 
+[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?bitXor@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?compareTerms@RunTime@VIP@@YG?AW4compareResult@_builtIn_class@@QBVtypeLibrary@12@PAX1@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?prologArrowTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\filesystem_api.1C9354BA.obj' vipRun.dll. ?search@RunTime@VIP@@YG_NPBG0QAI@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CloseHandle@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MonitorFromPoint@12 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetDateFormatW@24 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?enumericTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _SetFileAttributesW@8 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?universalNumericConvert4_ex@RunTime@VIP@@YGXPBVnumericTypeDescriptor_internal@12@0HPAX_N@Z 
+[import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetTimeFormatW@24 
+[import] 'Obj\binary.9C7C16C6.obj' vipRun.dll. ?binarySearch@RunTime@VIP@@YAIPBEI0I@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetFileAttributesExW@12 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _TrackMouseEvent@4 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _SetFileTime@16 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetActiveWindow@4 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetFullPathNameW@16 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _LoadImageW@24 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _PostQueuedCompletionStatus@16 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowTextLengthW@4 
+[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?mulUnsigned64_prolog@RunTime@VIP@@YG_K_K0@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _IsClipboardFormatAvailable@4 
+[import] 'Obj\string8.302F7782.obj' vipRun.dll. ?bitLeft@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardFormatNameW@12 
+[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?universalNumericConvert8_ex@RunTime@VIP@@YGXPBVnumericTypeDescriptor_internal@12@0_JPAX_N@Z 
+[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalFree@4 
+[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHFileOperationW@4 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToInteger64@RunTime@VIP@@YG_JN@Z 
+[import] 'Obj\filesystem.57D9C483.obj' vipKernel.dll. ?OSCompareMemory@Kernel@VIP@@YGHPBX0I@Z 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?roundToUnsigned@RunTime@VIP@@YGIN@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetQueuedCompletionStatus@20 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetClipboardData@8 
+[import] 'Obj\filesystem.57D9C483.obj' ADVAPI32.dll. _IsTextUnicode@12 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?InitInputParser@RunTime@VIP@@YGPAVRInputStreamImpl@12@QAVRROBufferProvider@12@QAEI@Z 
+[import] 'Obj\string8.302F7782.obj' vipRun.dll. ?bitRight@RunTime@VIP@@YAIII@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardOwner@0 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?unsigned8TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?round@RunTime@VIP@@YANN@Z 
+[import] 'Obj\core.4BC2D97D.obj' vipRun.dll. __imp_?unsigned16TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\windowsapi.901E9509.obj' vipKernel.dll. ?OSCopyMemory@Kernel@VIP@@YAXPAXPBXI@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CreateIoCompletionPort@16 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?FinishRetractWCTS@RunTime@VIP@@YGXPAVrFactItem@12@PAPAV312@@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetOverlappedResult@16 
+[import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?Stkb3@Kernel@VIP@@YAXXZ 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?RetractFactDataBaseWCTS@RunTime@VIP@@YGXQBVfactDbValue@12@@Z 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?InitWrite@RunTime@VIP@@YGPAVROutputStreamImpl@12@QAVRBufferProvider@12@@Z 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _SearchPathW@24 
+[import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?AllocHeapWCTS@Kernel@VIP@@YGQAEIIII@Z 
+[import] 'Obj\core.4BC2D97D.obj' vipRun.dll. __imp_?integer8TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?ln@RunTime@VIP@@YANN@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?typeLibraryVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?factDatabaseTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetDriveTypeW@4 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?exp@RunTime@VIP@@YANN@Z 
+[import] 'Obj\filesystem.57D9C483.obj' vipRun.dll. __imp_?integer16TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _CancelWaitableTimer@4 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _DuplicateHandle@28 
+[import] 'Obj\math.724D21D5.obj' vipRun.dll. ?ConvertExRR@RunTime@VIP@@YGNPBV?$numericTypeDescriptor@N@12@0NH@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _FlushFileBuffers@4 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _SetThreadContext@8 
+[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHGetFolderPathW@20 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _GetThreadSelectorEntry@12 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetSystemDirectoryW@8 
+[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?Comparison_U64@RunTime@VIP@@YG?AW4compareResult@_builtIn_class@@_K0@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _WriteFile@20 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMessageW@16 
+[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetStdHandle@8 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseChar@RunTime@VIP@@YGGQAVRInputStreamImpl@12@@Z 
+[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetWindowsDirectoryW@8 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseLine@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?interfaceTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseLineCRLF@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@@Z 
+[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetConsoleCtrlHandler@8 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseFromStream@RunTime@VIP@@YGPAXQBVtypeLibrary@12@QAVRInputStreamImpl@12@I@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?scopeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetParent@8 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetLongPathNameW@12 
 [import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegDeleteKeyW@8 
+[import] 'Obj\windowsapi.901E9509.obj' vipRun.dll. ?ErrorRangeSigned@RunTime@VIP@@YGXQBV?$numericTypeDescriptor@H@12@H@Z 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseBytes@RunTime@VIP@@YGPBVTBinary@@QAVRInputStreamImpl@12@I@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetShortPathNameW@12 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseString@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@I@Z 
 [import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?trimFront@RunTime@VIP@@YAPBGPBG@Z 
 [import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?functor_typeLibraryVTBL_ptr@RunTime@VIP@@3PAXA 
 [import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?Cut_Prolog@Kernel@VIP@@YAXXZ 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseLineCRLF@RunTime@VIP@@YGPBGQAVRInputStreamImpl@12@@Z 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. ?AssertANonDetermFactWCTS@RunTime@VIP@@YGXITRTerm@12@PAVrFactList@12@II@Z 
-[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?AllocListElementByTypeP@RunTime@VIP@@YGPBU?$__packedList_struct@E@@QBVtypeLibrary@12@@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _ExtTextOutW@32 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _SetCurrentDirectoryW@4 
+[import] 'Obj\exceptiondump.174B23B9.obj' vipRun.dll. ?tryString2Term@RunTime@VIP@@YGXQBVtypeLibrary@12@PBGPAPAX@Z 
 [import] 'Obj\exe.3A8A8F5C.obj' KERNEL32.dll. _GetCommandLineW@0 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetWindowPos@28 
+[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharAlphaW@4 
 [import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?Stkb2@Kernel@VIP@@YAXXZ 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _GetNumberOfConsoleInputEvents@8 
+[import] 'Obj\string8.302F7782.obj' KERNEL32.dll. _IsValidCodePage@4 
 [import] 'Obj\registry_api.0E78C5E3.obj' vipKernel.dll. ?VIP_ErrorExit7@Kernel@VIP@@YGXPBVtrapInfo_interface@12@@Z 
-[import] 'Obj\exception.544F7452.obj' KERNEL32.dll. _SetErrorMode@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _IsDialogMessageW@8 
 [import] 'Obj\exe.3A8A8F5C.obj' vipKernel.dll. ?GarbageCollector@Kernel@VIP@@YAXXZ 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetUpdateRect@12 
-[import] 'Obj\runtime_api.0E79B0CD.obj' vipKernel.dll. ?LocalCut2@Kernel@VIP@@YAXPAE@Z 
-[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetTempPathW@8 
-[import] 'Obj\runtime_api.0E79B0CD.obj' vipKernel.dll. ?StkTrap@Kernel@VIP@@YAXXZ 
-[import] 'Obj\string.B0A67F43.obj' KERNEL32.dll. _CompareStringW@24 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetClipboardViewer@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetScrollRange@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _DeleteObject@4 
-[import] 'Obj\string.B0A67F43.obj' USER32.dll. _CharUpperW@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardOwner@0 
-[import] 'Obj\binary.9C7C16C6.obj' vipRun.dll. ?calculateCRC@RunTime@VIP@@YAHQBVTBinary@@H@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _SelectObject@8 
-[import] 'Obj\filesystem.57D9C483.obj' vipRun.dll. ?searchBackCh@RunTime@VIP@@YGIPBGG@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CloseClipboard@0 
-[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharAlphaNumericW@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _CreateFontIndirectW@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetWindowPlacement@8 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?real32TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalAlloc@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _OpenClipboard@4 
-[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalUnlock@4 
-[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?LoadProcAddress@RunTime@VIP@@YGP6GHXZQBGQBDPAP6GHXZ@Z 
 [import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _DestroyIcon@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?stringTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleCursorPosition@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CreateAcceleratorTableW@8 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?InitWrite@RunTime@VIP@@YGPAVROutputStreamImpl@12@QAVRBufferProvider@12@@Z 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?symbolTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _SetFileTime@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMessageW@16 
-[import] 'Obj\filesystem.57D9C483.obj' KERNEL32.dll. _GetFullPathNameW@16 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?string8TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\filesystem.57D9C483.obj' ADVAPI32.dll. _IsTextUnicode@12 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?charTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _GetProcAddress@8 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?binaryTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _CreateWindowExW@48 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?pointerTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SendMessageW@16 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?handleTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _SetConsoleMode@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ReleaseDC@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MonitorFromPoint@12 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?factDbTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _UpdateLayeredWindow@36 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MoveWindow@24 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClientRect@8 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?integer64TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegEnumValueW@32 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?unsigned64TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?format2String@RunTime@VIP@@YGQBGQBGQBVrEllipsisArguments@12@@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetDC@4 
-[import] 'Obj\console_api.885E7959.obj' KERNEL32.dll. _SetConsoleCP@4 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?anyTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\console.043C10C8.obj' KERNEL32.dll. _ReadConsoleInputW@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EndMenu@0 
-[import] 'Obj\filesystem.57D9C483.obj' VERSION.dll. _GetFileVersionInfoW@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _InsertMenuItemW@16 
+[import] 'Obj\runtime_api.0E79B0CD.obj' vipKernel.dll. ?LocalCut2@Kernel@VIP@@YAXPAE@Z 
+[import] 'Obj\string.B0A67F43.obj' USER32.dll. _CharLowerW@4 
+[import] 'Obj\runtime_api.0E79B0CD.obj' vipKernel.dll. ?StkTrap@Kernel@VIP@@YAXXZ 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?UnRegisterWeakPointer@Kernel@VIP@@YGXPAPAX@Z 
+[import] 'Obj\windowsapi.901E9509.obj' vipRun.dll. __imp_?alignedFunctorlessFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?replace@RunTime@VIP@@YGPBGPBG00H_N@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetCurrentDirectoryW@8 
+[import] 'Obj\binary.9C7C16C6.obj' vipKernel.dll. ?MEM_alloc_nullfunctor@Kernel@VIP@@YGPBEI@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetDiskFreeSpaceExW@16 
 [import] 'Obj\time_api.21FCC41B.obj' KERNEL32.dll. _GetLocaleInfoW@16 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenu@4 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _SetVolumeLabelW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowRect@8 
+[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHBrowseForFolderW@4 
 [import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalMemoryStatusEx@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenuItemCount@4 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _EnableWindow@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?getListMember_nd_prolog_opt@RunTime@VIP@@YAXXZ 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetTimer@16 
-[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _OleUninitialize@0 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?factDatabaseTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipKernel.dll. ?OSMoveMemory@Kernel@VIP@@YAXPAXPBXI@Z 
-[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?packedCompoundTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
-[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _OleInitialize@4 
-[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHGetPathFromIDListW@8 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' vipKernel.dll. ?KernelUnitInitialization@Kernel@VIP@@YGHPAX@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MonitorFromWindow@8 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' vipKernel.dll. ?ExeInitialization@Kernel@VIP@@YAHXZ 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseFromStream@RunTime@VIP@@YGPAXQBVtypeLibrary@12@QAVRInputStreamImpl@12@I@Z 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipKernel.dll. ?RunGoal@Kernel@VIP@@YGIQ6AIXZ@Z 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ungetChar@RunTime@VIP@@YGXQAVRInputStreamImpl@12@@Z 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' vipKernel.dll. ?ExeTermination@Kernel@VIP@@YAXH@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExII@RunTime@VIP@@YGHPBVbaseIntegerDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@H@12@HH@Z 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipKernel.dll. ?KernelUnitTermination@Kernel@VIP@@YAXPAX@Z 
-[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?isAlpha@RunTime@VIP@@YG_NPBG@Z 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipRun.dll. ?RunUnitInitialization@RunTime@VIP@@YGHPAX@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _MoveFileW@8 
 [import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalLock@4 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipRun.dll. ?InitializationDictionaries@RunTime@VIP@@YGHPBVdicofdic@12@@Z 
-[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?AllocateObjectEx@RunTime@VIP@@YGPAEQBVRObjectClassDescriptorInfo@12@PAP6GXPAX@Z@Z 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipRun.dll. ?RunUnitTermination@RunTime@VIP@@YGXPAX@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?real32TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetClipboardData@4 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _CreateDirectoryW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetClipboardViewer@4 
+[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHGetPathFromIDListW@8 
+[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?addInteger64_prolog@RunTime@VIP@@YG_J_J0@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?stringTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MoveWindow@24 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _RemoveDirectoryW@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. ?AssertZNonDetermFactWCTS@RunTime@VIP@@YGXITRTerm@12@PAVrFactList@12@II@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?symbolTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?factFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\filesystem.57D9C483.obj' ole32.dll. _CoTaskMemFree@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetMenuItemInfoW@16 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?string8TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
 [import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _GetThreadContext@8 
-[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _CoUninitialize@0 
-[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ParseBytes@RunTime@VIP@@YGPBVTBinary@@QAVRInputStreamImpl@12@I@Z 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' KERNEL32.dll. __imp__ExitProcess@4 
-[import] 'Obj\exceptiondump.174B23B9.obj' USER32.dll. _MessageBoxW@16 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipKernel.dll. ?KernelUnitInitialization2@Kernel@VIP@@YGHPAX_N@Z 
-[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharUpperW@4 
-[import] 'Obj\namedvalue.187E0B91.obj' vipRun.dll. ?Error_TermsCannotBeMatched2@RunTime@VIP@@YGXQBVtypeLibrary@12@PAXPBG@Z 
-[import] 'Obj\filesystem.57D9C483.obj' SHELL32.dll. _SHFileOperationW@4 
-[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _CoInitializeEx@8 
-[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetIconInfo@8 
-[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?format2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@QBGQBVrEllipsisArguments@12@@Z 
-[import] 'Obj\gui_api.5B4BA4CC.obj' vipRun.dll. ?ConvertExUR@RunTime@VIP@@YGNPBVbaseUnsignedDWordTypeDescriptor@12@PBV?$numericTypeDescriptor@N@12@IH@Z 
-[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?sizeOfDomain@RunTime@VIP@@YGIQBVtypeLibrary@12@@Z 
-[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj' USER32.dll. __imp__MessageBoxA@16 
-[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _GetModuleHandleW@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?charTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _ReleaseDC@8 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?binaryTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' GDI32.dll. _CreateFontIndirectW@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?pointerTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\string.B0A67F43.obj' KERNEL32.dll. _CompareStringW@24 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?handleTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?create@RunTime@VIP@@YGPBGIPBG@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?integer32TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SetFocus@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?factDbTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
 [import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegDeleteValueW@8 
---- Total Names =  4264 --------
---- Total Cnt   =  4264 --------
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetVolumeInformationW@32 
+[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?objectConversion@RunTime@VIP@@YGQBVRObject@12@QBVscopeDescriptor@12@QBV312@H@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?integer64TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\string.B0A67F43.obj' USER32.dll. _IsCharLowerW@4 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?unsigned64TypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?memProf_ContextClose@Kernel@VIP@@YGXI@Z 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _SetFilePointerEx@20 
+[import] 'Obj\memory.9BD3BF38.obj' vipKernel.dll. ?memProf_ContextOpen@Kernel@VIP@@YGIII@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?anyTypeDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] 'Obj\string.B0A67F43.obj' KERNEL32.dll. _IsBadStringPtrW@8 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _SendMessageW@16 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetWindowThreadProcessId@8 
+[import] 'Obj\filesystem_api.1C9354BA.obj' KERNEL32.dll. _GetFileSizeEx@8 
+[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalAlloc@8 
+[import] 'Obj\time_api.21FCC41B.obj' vipRun.dll. ?LoadProcAddress@RunTime@VIP@@YGP6GHXZQBGQBDPAP6GHXZ@Z 
+[import] 'Obj\string.B0A67F43.obj' vipRun.dll. ?Comparison_I64@RunTime@VIP@@YG?AW4compareResult@_builtIn_class@@_J0@Z 
+[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?writeBytes2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@QBEI@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' vipKernel.dll. ?OSMoveMemory@Kernel@VIP@@YAXPAXPBXI@Z 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _GetModuleHandleW@4 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _InsertMenuItemW@16 
+[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?saveDatabase@RunTime@VIP@@YGXQBVfactDbValue@12@QAVROutputStreamImpl@12@@Z 
+[import] 'Obj\multithread_api.6DC4E6F9.obj' KERNEL32.dll. _GetProcAddress@8 
+[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _OleUninitialize@0 
+[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?subUnsigned64WOO_prolog@RunTime@VIP@@YG_K_K0@Z 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' vipKernel.dll. ?KernelUnitInitialization@Kernel@VIP@@YGHPAX@Z 
+[import] 'Obj\locale_api.25A9E29D.obj' KERNEL32.dll. _GetThreadLocale@0 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' vipKernel.dll. ?ExeInitialization@Kernel@VIP@@YAHXZ 
+[import] 'Obj\memory.9BD3BF38.obj' vipRun.dll. ?AllocListElementByTypeP@RunTime@VIP@@YGPBU?$__packedList_struct@E@@QBVtypeLibrary@12@@Z 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipKernel.dll. ?RunGoal@Kernel@VIP@@YGIQ6AIXZ@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipRun.dll. __imp_?functorlessFunctorDescriptorVTBL_ptr@RunTime@VIP@@3PAXA 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' vipKernel.dll. ?ExeTermination@Kernel@VIP@@YAXH@Z 
+[import] 'Obj\list.1520BD2B.obj' vipRun.dll. ?CompareTerms_Prolog@RunTime@VIP@@YA?AW4compareResult@_builtIn_class@@XZ 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipKernel.dll. ?KernelUnitTermination@Kernel@VIP@@YAXPAX@Z 
+[import] 'Obj\registry_api.0E78C5E3.obj' KERNEL32.dll. _lstrlenA@4 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipRun.dll. ?RunUnitInitialization@RunTime@VIP@@YGHPAX@Z 
+[import] 'Obj\memory_api.072B3D5C.obj' KERNEL32.dll. _GlobalUnlock@4 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipRun.dll. ?InitializationDictionaries@RunTime@VIP@@YGHPBVdicofdic@12@@Z 
+[import] 'Obj\main.A22FE9BF.obj' vipKernel.dll. ?Run_Fail@Kernel@VIP@@YAXXZ 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipRun.dll. ?RunUnitTermination@RunTime@VIP@@YGXPAX@Z 
+[import] 'Obj\std.1C7A9F9B.obj' vipRun.dll. ?addUnsigned64WOO_prolog@RunTime@VIP@@YG_K_K0@Z 
+[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?format2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@QBGQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetParent@4 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPMain.obj' KERNEL32.dll. __imp__ExitProcess@4 
+[import] 'Obj\string8_api.41F368A6.obj' KERNEL32.dll. _MultiByteToWideChar@24 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPDll.obj' vipKernel.dll. ?KernelUnitInitialization2@Kernel@VIP@@YGHPAX_N@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _GetOpenClipboardWindow@0 
+[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _OleInitialize@4 
+[import] 'Obj\varm.17B5C45B.obj' vipRun.dll. ?sizeOfDomain@RunTime@VIP@@YGIQBVtypeLibrary@12@@Z 
+[import] 'Obj\namedvalue.187E0B91.obj' vipRun.dll. ?Error_TermsCannotBeMatched2@RunTime@VIP@@YGXQBVtypeLibrary@12@PAXPBG@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _OpenClipboard@4 
+[import] 'Obj\inputstreamsupport.7C36EDAA.obj' vipRun.dll. ?ungetChar@RunTime@VIP@@YGXQAVRInputStreamImpl@12@@Z 
+[import] 'Obj\gui_api.5B4BA4CC.obj' USER32.dll. _MonitorFromRect@8 
+[import] 'Obj\exe_api.A0303A40.obj' ole32.dll. _CoUninitialize@0 
+[import] '..\..\..\_intermediate\sourceVS\vipInit\Win32\ReleasePE\VIPPE.obj' USER32.dll. __imp__MessageBoxA@16 
+[import] 'Obj\outputstreamsupport.024B29AC.obj' vipRun.dll. ?write2Stream@RunTime@VIP@@YGXQAVROutputStreamImpl@12@IIQBVrEllipsisArguments@12@@Z 
+[import] 'Obj\registry_api.0E78C5E3.obj' ADVAPI32.dll. _RegEnumValueW@32 
+--- Total Names =  4268 --------
+--- Total Cnt   =  4268 --------
 --------------------------------
 
