@@ -1,6 +1,7 @@
 ﻿#include @"main.ph"
 
 % privately used packages
+#include @"pfc\list\list.ph"
 #include @"pfc\console\console.ph"
 #include @"pfc\core.ph"
 
