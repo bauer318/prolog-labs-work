@@ -120,7 +120,7 @@ clauses
 
 clauses
     run():-p(),!.
-    run():-p2(2),!.
+    run():-p2(1),!.
     run().
 
 end implement main

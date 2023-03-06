@@ -1,14 +1,14 @@
 ﻿ VIP Linker 7.5.
-  Module 'C:\Users\jacqu\OneDrive\Documents\Visual Prolog Projects\LW05\Exe\LW05.exe' Map. Sat Mar 04 23:31:26 2023
+  Module 'C:\Users\jacqu\OneDrive\Documents\Visual Prolog Projects\LW05\Exe\LW05.exe' Map. Mon Mar 06 18:27:36 2023
 
 Frame 001000   Size 042AE0.  Name=<   .text>, 	Chars=60000020h. [CER]
 Frame 044000   Size 02F730.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 Frame 074000   Size 000170.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 Frame 075000   Size 000320.  Name=<  PRODBG>, 	Chars=40000040h. [IR]
-Frame 076000   Size 000540.  Name=<  VIPini>, 	Chars=40000040h. [IR]
+Frame 076000   Size 0004A0.  Name=<  VIPini>, 	Chars=40000040h. [IR]
 Frame 077000   Size 000010.  Name=<  VIPsym>, 	Chars=40000040h. [IR]
-Frame 078000   Size 000CE0.  Name=<  VIPtpd>, 	Chars=40000040h. [IR]
-Frame 079000   Size 000C90.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
+Frame 078000   Size 000C10.  Name=<  VIPtpd>, 	Chars=40000040h. [IR]
+Frame 079000   Size 000C10.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
 Frame 07A000   Size 000040.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
 
 	--- S e g m e n t s : ---
@@ -315,7 +315,7 @@ Frame 075000   Size 000320.  Name=<  PRODBG>, 	Chars=40000040h. [IR]
    075300   Module 'Obj\windowsapi.901E9509.obj'
    075310   Module 'Obj\main.A22FE9BF.obj'
 
-Frame 076000   Size 000540.  Name=<  VIPini>, 	Chars=40000040h. [IR]
+Frame 076000   Size 0004A0.  Name=<  VIPini>, 	Chars=40000040h. [IR]
 076000:000000 000004   VIPini$A::VIPini$A::VIPini F=4
    076000   Module 'Obj\main.A22FE9BF.obj'
 076000:000004 00028C   VIPini$C::VIPini$C::VIPini F=4
@@ -429,10 +429,10 @@ Frame 077000   Size 000010.  Name=<  VIPsym>, 	Chars=40000040h. [IR]
 077000:000004 000008   VIPsym$E::VIPsym$E::VIPsym F=4
    077004   Module 'Obj\main.A22FE9BF.obj'
 
-Frame 078000   Size 000CE0.  Name=<  VIPtpd>, 	Chars=40000040h. [IR]
+Frame 078000   Size 000C10.  Name=<  VIPtpd>, 	Chars=40000040h. [IR]
 078000:000000 000004   VIPtpd$A::VIPtpd$A::VIPtpd F=4
    078000   Module 'Obj\main.A22FE9BF.obj'
-078000:000004 000CCC   VIPtpd$C::VIPtpd$C::VIPtpd F=4
+078000:000004 000BFC   VIPtpd$C::VIPtpd$C::VIPtpd F=4
    078004   Module 'Obj\exe.3A8A8F5C.obj'
    078090   Module 'Obj\binary.9C7C16C6.obj'
    0780AC   Module 'Obj\boolean.CB308F06.obj'
@@ -451,45 +451,45 @@ Frame 078000   Size 000CE0.  Name=<  VIPtpd>, 	Chars=40000040h. [IR]
    078490   Module 'Obj\exception.544F7452.obj'
    0784C0   Module 'Obj\exceptiondump.174B23B9.obj'
    0784C0   Module 'Obj\filesystem.57D9C483.obj'
-   078510   Module 'Obj\list.1520BD2B.obj'
-   0785D0   Module 'Obj\math.724D21D5.obj'
-   0785DC   Module 'Obj\memory.9BD3BF38.obj'
-   078688   Module 'Obj\namedvalue.187E0B91.obj'
-   078688   Module 'Obj\programcontrol.5D08C78A.obj'
-   078690   Module 'Obj\reflection.0F000252.obj'
-   0786C4   Module 'Obj\typelibrary.C0325122.obj'
-   0786C4   Module 'Obj\registry.88C8A89A.obj'
-   078754   Module 'Obj\std.1C7A9F9B.obj'
-   078764   Module 'Obj\inputstreamsupport.7C36EDAA.obj'
-   078778   Module 'Obj\outputstreamsupport.024B29AC.obj'
-   07877C   Module 'Obj\stream.99784C5B.obj'
-   07878C   Module 'Obj\string.B0A67F43.obj'
-   0787B4   Module 'Obj\string8.302F7782.obj'
-   0787B4   Module 'Obj\varm.17B5C45B.obj'
-   078850   Module 'Obj\vpidomains.CE78C30C.obj'
-   0788A8   Module 'Obj\console_api.885E7959.obj'
-   0788C4   Module 'Obj\exe_api.A0303A40.obj'
-   078958   Module 'Obj\filesystem_api.1C9354BA.obj'
-   0789B8   Module 'Obj\gui_api.5B4BA4CC.obj'
-   078AE0   Module 'Obj\locale_api.25A9E29D.obj'
-   078AF4   Module 'Obj\memory_api.072B3D5C.obj'
-   078AFC   Module 'Obj\multithread_api.6DC4E6F9.obj'
-   078B28   Module 'Obj\registry_api.0E78C5E3.obj'
-   078B30   Module 'Obj\runtime_api.0E79B0CD.obj'
-   078B34   Module 'Obj\shell_api.D9156D40.obj'
-   078BAC   Module 'Obj\string_api.5221196E.obj'
-   078BAC   Module 'Obj\string8_api.41F368A6.obj'
-   078BAC   Module 'Obj\systeminformation_api.2DB6162F.obj'
-   078BC8   Module 'Obj\time_api.21FCC41B.obj'
-   078BDC   Module 'Obj\windowsapi.901E9509.obj'
-   078BE8   Module 'Obj\main.A22FE9BF.obj'
-078000:000CD0 000008   VIPtpd$E::VIPtpd$E::VIPtpd F=4
-   078CD0   Module 'Obj\main.A22FE9BF.obj'
+   0785AC   Module 'Obj\list.1520BD2B.obj'
+   07860C   Module 'Obj\math.724D21D5.obj'
+   078618   Module 'Obj\memory.9BD3BF38.obj'
+   07869C   Module 'Obj\namedvalue.187E0B91.obj'
+   07869C   Module 'Obj\programcontrol.5D08C78A.obj'
+   0786A4   Module 'Obj\reflection.0F000252.obj'
+   0786D8   Module 'Obj\typelibrary.C0325122.obj'
+   0786D8   Module 'Obj\registry.88C8A89A.obj'
+   078768   Module 'Obj\std.1C7A9F9B.obj'
+   078778   Module 'Obj\inputstreamsupport.7C36EDAA.obj'
+   07877C   Module 'Obj\outputstreamsupport.024B29AC.obj'
+   078780   Module 'Obj\stream.99784C5B.obj'
+   078790   Module 'Obj\string.B0A67F43.obj'
+   0787B8   Module 'Obj\string8.302F7782.obj'
+   0787B8   Module 'Obj\varm.17B5C45B.obj'
+   078854   Module 'Obj\vpidomains.CE78C30C.obj'
+   0788AC   Module 'Obj\console_api.885E7959.obj'
+   0788C8   Module 'Obj\exe_api.A0303A40.obj'
+   0788D0   Module 'Obj\filesystem_api.1C9354BA.obj'
+   078920   Module 'Obj\gui_api.5B4BA4CC.obj'
+   078A48   Module 'Obj\locale_api.25A9E29D.obj'
+   078A5C   Module 'Obj\memory_api.072B3D5C.obj'
+   078A64   Module 'Obj\multithread_api.6DC4E6F9.obj'
+   078A90   Module 'Obj\registry_api.0E78C5E3.obj'
+   078A98   Module 'Obj\runtime_api.0E79B0CD.obj'
+   078A9C   Module 'Obj\shell_api.D9156D40.obj'
+   078ADC   Module 'Obj\string_api.5221196E.obj'
+   078ADC   Module 'Obj\string8_api.41F368A6.obj'
+   078ADC   Module 'Obj\systeminformation_api.2DB6162F.obj'
+   078AF8   Module 'Obj\time_api.21FCC41B.obj'
+   078B0C   Module 'Obj\windowsapi.901E9509.obj'
+   078B18   Module 'Obj\main.A22FE9BF.obj'
+078000:000C00 000008   VIPtpd$E::VIPtpd$E::VIPtpd F=4
+   078C00   Module 'Obj\main.A22FE9BF.obj'
 
-Frame 079000   Size 000C90.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
+Frame 079000   Size 000C10.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
 079000:000000 000004   VIPtpl$A::VIPtpl$A::VIPtpl F=4
    079000   Module 'Obj\main.A22FE9BF.obj'
-079000:000004 000C78   VIPtpl$C::VIPtpl$C::VIPtpl F=4
+079000:000004 000BFC   VIPtpl$C::VIPtpl$C::VIPtpl F=4
    079004   Module 'Obj\exe.3A8A8F5C.obj'
    07906C   Module 'Obj\binary.9C7C16C6.obj'
    0790A0   Module 'Obj\boolean.CB308F06.obj'
@@ -508,40 +508,40 @@ Frame 079000   Size 000C90.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
    079430   Module 'Obj\exception.544F7452.obj'
    079474   Module 'Obj\exceptiondump.174B23B9.obj'
    0794D4   Module 'Obj\filesystem.57D9C483.obj'
-   079538   Module 'Obj\list.1520BD2B.obj'
-   0795AC   Module 'Obj\math.724D21D5.obj'
-   0795B8   Module 'Obj\memory.9BD3BF38.obj'
-   07966C   Module 'Obj\namedvalue.187E0B91.obj'
-   07967C   Module 'Obj\programcontrol.5D08C78A.obj'
-   079684   Module 'Obj\reflection.0F000252.obj'
-   0796C4   Module 'Obj\typelibrary.C0325122.obj'
-   0796C4   Module 'Obj\registry.88C8A89A.obj'
-   079734   Module 'Obj\std.1C7A9F9B.obj'
-   079744   Module 'Obj\inputstreamsupport.7C36EDAA.obj'
-   079758   Module 'Obj\outputstreamsupport.024B29AC.obj'
-   079764   Module 'Obj\stream.99784C5B.obj'
-   079778   Module 'Obj\string.B0A67F43.obj'
-   0797C0   Module 'Obj\string8.302F7782.obj'
-   0797C8   Module 'Obj\varm.17B5C45B.obj'
-   079848   Module 'Obj\vpidomains.CE78C30C.obj'
-   0798A4   Module 'Obj\console_api.885E7959.obj'
-   0798C0   Module 'Obj\exe_api.A0303A40.obj'
-   079930   Module 'Obj\filesystem_api.1C9354BA.obj'
-   079998   Module 'Obj\gui_api.5B4BA4CC.obj'
-   079AD8   Module 'Obj\locale_api.25A9E29D.obj'
-   079AEC   Module 'Obj\memory_api.072B3D5C.obj'
-   079B00   Module 'Obj\multithread_api.6DC4E6F9.obj'
-   079B30   Module 'Obj\registry_api.0E78C5E3.obj'
-   079B3C   Module 'Obj\runtime_api.0E79B0CD.obj'
-   079B4C   Module 'Obj\shell_api.D9156D40.obj'
-   079B88   Module 'Obj\string_api.5221196E.obj'
-   079B88   Module 'Obj\string8_api.41F368A6.obj'
-   079B88   Module 'Obj\systeminformation_api.2DB6162F.obj'
-   079BA0   Module 'Obj\time_api.21FCC41B.obj'
-   079BB0   Module 'Obj\windowsapi.901E9509.obj'
-   079BC0   Module 'Obj\main.A22FE9BF.obj'
-079000:000C7C 000008   VIPtpl$E::VIPtpl$E::VIPtpl F=4
-   079C7C   Module 'Obj\main.A22FE9BF.obj'
+   0795B0   Module 'Obj\list.1520BD2B.obj'
+   0795E8   Module 'Obj\math.724D21D5.obj'
+   0795F4   Module 'Obj\memory.9BD3BF38.obj'
+   079680   Module 'Obj\namedvalue.187E0B91.obj'
+   079690   Module 'Obj\programcontrol.5D08C78A.obj'
+   079698   Module 'Obj\reflection.0F000252.obj'
+   0796D8   Module 'Obj\typelibrary.C0325122.obj'
+   0796D8   Module 'Obj\registry.88C8A89A.obj'
+   079748   Module 'Obj\std.1C7A9F9B.obj'
+   079758   Module 'Obj\inputstreamsupport.7C36EDAA.obj'
+   07975C   Module 'Obj\outputstreamsupport.024B29AC.obj'
+   079768   Module 'Obj\stream.99784C5B.obj'
+   07977C   Module 'Obj\string.B0A67F43.obj'
+   0797C4   Module 'Obj\string8.302F7782.obj'
+   0797CC   Module 'Obj\varm.17B5C45B.obj'
+   07984C   Module 'Obj\vpidomains.CE78C30C.obj'
+   0798A8   Module 'Obj\console_api.885E7959.obj'
+   0798C4   Module 'Obj\exe_api.A0303A40.obj'
+   0798CC   Module 'Obj\filesystem_api.1C9354BA.obj'
+   079924   Module 'Obj\gui_api.5B4BA4CC.obj'
+   079A64   Module 'Obj\locale_api.25A9E29D.obj'
+   079A78   Module 'Obj\memory_api.072B3D5C.obj'
+   079A8C   Module 'Obj\multithread_api.6DC4E6F9.obj'
+   079ABC   Module 'Obj\registry_api.0E78C5E3.obj'
+   079AC8   Module 'Obj\runtime_api.0E79B0CD.obj'
+   079AD8   Module 'Obj\shell_api.D9156D40.obj'
+   079B0C   Module 'Obj\string_api.5221196E.obj'
+   079B0C   Module 'Obj\string8_api.41F368A6.obj'
+   079B0C   Module 'Obj\systeminformation_api.2DB6162F.obj'
+   079B24   Module 'Obj\time_api.21FCC41B.obj'
+   079B34   Module 'Obj\windowsapi.901E9509.obj'
+   079B44   Module 'Obj\main.A22FE9BF.obj'
+079000:000C00 000008   VIPtpl$E::VIPtpl$E::VIPtpl F=4
+   079C00   Module 'Obj\main.A22FE9BF.obj'
 
 Frame 07A000   Size 000040.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
 07A000:000000 00003C   .gcroot::.gcroot::.gcroot F=4
@@ -3534,8 +3534,9 @@ Frame 044000   Size 02F730.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 02:000486B0 $stdioState$_global_class$0$domain$$type_library$ 
 02:000486C0 $stream$_global_class$0$domain$$type_library$ 
 02:000486D0 $mode$stream_interface$0$domain$$type_library$ 
---- From 'Obj\exe_api.A0303A40.obj'
+--- From 'Obj\registry.88C8A89A.obj'
 02:000486E0 $outputStream_string$_global_class$0$domain$$type_library$ 
+--- From 'Obj\string.B0A67F43.obj'
 02:000486F0 $contentsChangedListener$outputStream_string_interface$0$domain$$type_library$ 
 --- From 'Obj\exe.3A8A8F5C.obj'
 02:00048700 $mainExe@classDB$mainExe_implement$0$domain$$type_library$ 
@@ -3548,10 +3549,13 @@ Frame 044000   Size 02F730.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 02:00048760 $binaryNonAtomic$_builtIn_class$0$domain$$type_library$ 
 --- From 'Obj\registry_api.0E78C5E3.obj'
 02:00048770 $outputStream_binary$_global_class$0$domain$$type_library$ 
---- From 'Obj\filesystem_api.1C9354BA.obj'
+--- From 'Obj\string.B0A67F43.obj'
 02:00048780 $inputBuffer$_global_class$0$domain$$type_library$ 
+--- From 'Obj\filesystem.57D9C483.obj'
 02:00048790 $inputSupport$_global_class$0$domain$$type_library$ 
+--- From 'Obj\string.B0A67F43.obj'
 02:000487A0 $outputBuffer$_global_class$0$domain$$type_library$ 
+--- From 'Obj\filesystem.57D9C483.obj'
 02:000487B0 $outputSupport$_global_class$0$domain$$type_library$ 
 --- From 'Obj\binary.9C7C16C6.obj'
 02:000487C0 $outputStream_binary@objectDB$outputStream_binary_implement$0$domain$$type_library$ 
@@ -3815,10 +3819,8 @@ Frame 044000   Size 02F730.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 --- From 'Obj\filesystem.57D9C483.obj'
 02:000494F0 $codePage$fileVersion_implement$0$domain$$type_library$ 
 02:00049500 $languagex$fileVersion_implement$0$domain$$type_library$ 
---- From 'Obj\shell_api.D9156D40.obj'
 02:00049510 $iStream_native$_global_class$0$domain$$type_library$ 
 02:00049520 $iUnknown$_global_class$0$domain$$type_library$ 
---- From 'Obj\filesystem.57D9C483.obj'
 02:00049530 $outputStream_file@objectDB$outputStream_file_implement$0$domain$$type_library$ 
 02:00049540 $messageFile@objectDB$messageFile_implement$0$domain$$type_library$ 
 02:00049550 $anonymous$o0$1$write/0ep$messageFile$messageFile_implement$0$domain$$type_library$ 
@@ -4178,23 +4180,28 @@ Frame 044000   Size 02F730.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 02:0004B7D0 interface$stream 
 02:0004B830 $stream$_global_class$0$domain$ 
 02:0004B8A0 $mode$stream_interface$0$domain$ 
---- From 'Obj\exe_api.A0303A40.obj'
+--- From 'Obj\string.B0A67F43.obj'
 02:0004B900 interface$outputStream_string 
 02:0004B990 $outputStream_string$_global_class$0$domain$ 
 02:0004B9D0 $contentsChangedListener$outputStream_string_interface$0$domain$ 
 --- From 'Obj\registry_api.0E78C5E3.obj'
 02:0004BA20 interface$outputStream_binary 
 02:0004BAB0 $outputStream_binary$_global_class$0$domain$ 
---- From 'Obj\filesystem_api.1C9354BA.obj'
+--- From 'Obj\filesystem.57D9C483.obj'
 02:0004BAF0 interface$inputBuffer 
 02:0004BB90 $inputBuffer$_global_class$0$domain$ 
+--- From 'Obj\string.B0A67F43.obj'
 02:0004BBC0 interface$inputSupport 
+--- From 'Obj\inputstreamsupport.7C36EDAA.obj'
 02:0004BC60 $inputSupport$_global_class$0$domain$ 
+--- From 'Obj\filesystem.57D9C483.obj'
 02:0004BCA0 interface$outputBuffer 
 02:0004BD40 $outputBuffer$_global_class$0$domain$ 
+--- From 'Obj\string.B0A67F43.obj'
 02:0004BD80 interface$outputSupport 
+--- From 'Obj\outputstreamsupport.024B29AC.obj'
 02:0004BE20 $outputSupport$_global_class$0$domain$ 
---- From 'Obj\shell_api.D9156D40.obj'
+--- From 'Obj\list.1520BD2B.obj'
 02:0004BE60 interface$collection{@Type} 
 02:0004BEE0 $collection{@Type}$_global_class$1$domain$ 
 02:0004BF10 interface$map{@Key,@Data} 
@@ -4269,7 +4276,7 @@ Frame 044000   Size 02F730.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 02:0004D730 $wrapPresenter$pfc\reflection\typeLibrary_interface$0$domain$ 
 02:0004D770 interface$pfc\reflection\typeLibrary_functor 
 02:0004D840 $pfc\reflection\typeLibrary_functor$_global_class$0$domain$ 
---- From 'Obj\shell_api.D9156D40.obj'
+--- From 'Obj\filesystem.57D9C483.obj'
 02:0004D8A0 interface$iStream_native 
 02:0004D960 $iStream_native$_global_class$0$domain$ 
 02:0004D9A0 interface$iUnknown 
@@ -4882,7 +4889,7 @@ Frame 074000   Size 000170.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 074000:00015C 00000C   .bss::BSS::DGROUP F=4
 Frame 075000   Size 000320.  Name=<  PRODBG>, 	Chars=40000040h. [IR]
 075000:000000 000320   PRODBG::PRODBG::PRODBG F=4
-Frame 076000   Size 000540.  Name=<  VIPini>, 	Chars=40000040h. [IR]
+Frame 076000   Size 0004A0.  Name=<  VIPini>, 	Chars=40000040h. [IR]
 076000:000000 000004   VIPini$A::VIPini$A::VIPini F=4
 --- From 'Obj\main.A22FE9BF.obj'
 05:00076000 _VIPStartOfClassDescriptors 
@@ -4894,18 +4901,18 @@ Frame 077000   Size 000010.  Name=<  VIPsym>, 	Chars=40000040h. [IR]
 06:00077000 _VIPStartOfSymbols 
 077000:000004 000000   VIPsym$C::VIPsym$C::VIPsym F=4
 077000:000004 000008   VIPsym$E::VIPsym$E::VIPsym F=4
-Frame 078000   Size 000CE0.  Name=<  VIPtpd>, 	Chars=40000040h. [IR]
+Frame 078000   Size 000C10.  Name=<  VIPtpd>, 	Chars=40000040h. [IR]
 078000:000000 000004   VIPtpd$A::VIPtpd$A::VIPtpd F=4
 --- From 'Obj\main.A22FE9BF.obj'
 07:00078000 _VIPStartOfTypeDescriptors 
-078000:000004 000CCC   VIPtpd$C::VIPtpd$C::VIPtpd F=4
-078000:000CD0 000008   VIPtpd$E::VIPtpd$E::VIPtpd F=4
-Frame 079000   Size 000C90.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
+078000:000004 000BFC   VIPtpd$C::VIPtpd$C::VIPtpd F=4
+078000:000C00 000008   VIPtpd$E::VIPtpd$E::VIPtpd F=4
+Frame 079000   Size 000C10.  Name=<  VIPtpl>, 	Chars=40000040h. [IR]
 079000:000000 000004   VIPtpl$A::VIPtpl$A::VIPtpl F=4
 --- From 'Obj\main.A22FE9BF.obj'
 08:00079000 _VIPStartOfTypeLibraries 
-079000:000004 000C78   VIPtpl$C::VIPtpl$C::VIPtpl F=4
-079000:000C7C 000008   VIPtpl$E::VIPtpl$E::VIPtpl F=4
+079000:000004 000BFC   VIPtpl$C::VIPtpl$C::VIPtpl F=4
+079000:000C00 000008   VIPtpl$E::VIPtpl$E::VIPtpl F=4
 Frame 07A000   Size 000040.  Name=< .gcroot>, 	Chars=C0000040h. [IRW]
 07A000:000000 00003C   .gcroot::.gcroot::.gcroot F=4
 --- Total Cnt   =  3837 --------
