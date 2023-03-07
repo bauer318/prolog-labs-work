@@ -1,4 +1,4 @@
-﻿/*Лаба 05*/
+﻿/*Лаба 06*/
 implement main
     open core, console,string, string8,list
 /*Типы данных*/
@@ -20,13 +20,13 @@ domains
     список_кодов_фильмов = код_кф*.
     список_кодов_кинотеатров = код_кт*.
     список_выручки=выручка*.
+    список_фильмов = название*.
 
     charlist = char*.
 class facts
     кинотеатр:(код_кт,название,адрес,телефон,кол_во_мест).
     кинофильм:(код_кф,название,год_выпуска,режиссер,число_серий).
     показывает:(код_кт,код_кф,дата,время,выручка).
-    match:(integer) determ.
 
 
 class predicates
@@ -44,12 +44,13 @@ class predicates
     вывод_название_фильма_по_коду:(код_кф) nondeterm.
 
 
-    string_list:(string,charlist) nondeterm anyflow.
+    string_list:(string,charlist) nondeterm (i,o).
     поиск_по_маске:(string,string) nondeterm (i,i).
-    search_char_in_charlist:(char,charlist,integer) nondeterm anyflow.
-    search_chars_in_charlist:(charlist,charlist,string) nondeterm anyflow.
+    search_char_in_charlist:(char,charlist,integer) nondeterm (i,i,o).
+    search_chars_in_charlist:(charlist,charlist) procedure (i,i).
     удалить:(string, string, char)nondeterm (i,o,i).
-    assert_retract:(integer) determ.
+    получить_список_фильмов:(список_кодов_фильмов,список_фильмов) nondeterm (i,o).
+    поиск_название_фильмов_по_маске:(string,список_фильмов) nondeterm (i,i).
 
 /*Определение отношениий с помощью фактов*/
 clauses
@@ -80,31 +81,40 @@ clauses
     показывает(1,6,"20.01.2023",20,5000).
 
 clauses
-    assert_retract(N):-retract(match(_)),
-                              assert(match(N)).
 
-
+    %Преобразует строку на список
     string_list("",[]):-!.
     string_list(S,[X|T]):-
                             frontchar(S,X,S1),
                             string_list(S1,T).
 
+    %поиск в строке String по маске Maska
     поиск_по_маске(String,Maska):-
                                                string_list(String,LS),
                                                string_list(Maska,LM),
-                                               search_chars_in_charlist(LS,LM,Maska).
-    поиск_по_маске(_,_).
+                                               search_chars_in_charlist(LS,LM).
 
 
-    search_char_in_charlist(_,[],N):-N=0,!.
+    %поиск символ в список символов
+    /*если символ из маски не находится в строке (название фильма)*/
+    search_char_in_charlist(_,[],N):-N=0,write("       - этот фильм не включает только заданые символы"),nl,!.
+    /*символ из маски находится в строке*/
     search_char_in_charlist(X,[X|_],N):-N=1,!.
+    /*символ из маски не совпадает с первого элемента списка из строки*/
     search_char_in_charlist(X,[_|T],N):-search_char_in_charlist(X,T,N).
 
 
-    search_chars_in_charlist([],[],Str):-write(" этот фильм включает только заданые символы : ",Str),!.
-    search_chars_in_charlist([],_,_):-!.
-    search_chars_in_charlist(_,[],_):-!.
-    search_chars_in_charlist([X|T],[X1|T1],Str):-
+
+    /*поиск всех элементов второго списка в первом списке
+        при нахождении элемента в обоих списках этот элемент удаяется из списков.
+        если в конце у нас оба списка пустые, то строка (из первого списка)
+        включает только заданные символы (из второго списка - маска), иначе
+        строка не влючает только заданные символы.
+    */
+    search_chars_in_charlist([],[]):-write("       + этот фильм включает только заданые символы"),nl,!.
+    search_chars_in_charlist([],_):-write("       - этот фильм не включает только заданые символы"),!.
+    search_chars_in_charlist(_,[]):-write("       - этот фильм не включает только заданые символы"),!.
+    search_chars_in_charlist([X|T],[X1|T1]):-
                                                             search_char_in_charlist(X1,[X|T],N),
                                                             N=1,
                                                             St = createFromCharList([X|T]),
@@ -113,8 +123,10 @@ clauses
                                                             удалить(St2,St_Out2,X1),
                                                             string_list(St_Out1,LS),
                                                             string_list(St_Out2,LS2),
-                                                            search_chars_in_charlist(LS,LS2,Str).
+                                                            search_chars_in_charlist(LS,LS2),!.
+    search_chars_in_charlist(_,_).
 
+    %удаляет символ CharZ из строки StringI и возвращает новую строку StringO
     удалить("","",_).
     удалить(StringI, StringO, CharZ):-
                                                 frontChar(StringI, Символ, String1),
@@ -128,6 +140,13 @@ clauses
                                                 удалить(String1, StringO1, CharZ),
                                                 Символ <> CharZ,
                                                 StringO = concat(StringO1,Str).
+
+    %Найти наименование, включаючее только заданные символы
+    поиск_название_фильмов_по_маске(_,[]).
+    поиск_название_фильмов_по_маске(Maska,[X|T]):-write("       поиск в названии фильма \"",X,"\" по маске :",Maska),nl,
+                                                                            поиск_по_маске(X,Maska),
+                                                                            поиск_название_фильмов_по_маске(Maska,T).
+
 
 clauses
 
@@ -146,14 +165,15 @@ clauses
     вывод_список_фильмов_в_каждом_кинотеатре([X|T]):-вывод_список_фильмов_определенного_кинотеатра(X),
                                                                                   вывод_список_фильмов_в_каждом_кинотеатре(T).
 
-    вывод_список_фильмов_определенного_кинотеатра(Idkt):-write("Список фильмов, идущих в кинотеатре ",Idkt," :"),nl,
+    вывод_список_фильмов_определенного_кинотеатра(Idkt):-nl,write("Список фильмов, идущих в кинотеатре ",Idkt," :"),nl,
                                                                                       findall(Idkf,показывает(Idkt,Idkf,_,_,_),List),
-                                                                                      вывод_список_фильмов(List).
+                                                                                      вывод_список_фильмов(List),
+                                                                                      получить_список_фильмов(List,ListFilmName),
+                                                                                      поиск_название_фильмов_по_маске("ame of th nGsr",ListFilmName).
 
     вывод_список_фильмов([]):-nl.
     вывод_список_фильмов([X|T]):-кинофильм(X,Film,_,_,_),
-                                                 write("  ",Film),
-                                                 поиск_по_маске(Film,"ikitaN"),nl.
+                                                 write("  ",Film),nl,
                                                  вывод_список_фильмов(T).
 
     комп_в_множ([X1],[X1]):-!.
@@ -176,14 +196,18 @@ clauses
 
     вывод_название_фильма_по_коду(Idkf):-кинофильм(Idkf,Film,_,_,_),write(Film).
 
+    получить_список_фильмов([],L):-L=[].
+    получить_список_фильмов([X|T], [X1|T2]):-  кинофильм(X,Film,_,_,_),
+                                                                    X1 = Film,
+                                                                    получить_список_фильмов(T,T2).
+
+
 
 
 clauses
     run():-p(),!.
     run():-p2(1),!.
-    %run():- поиск_по_маске("Nikot","iktoNe"),nl,!.
     run().
-    %run().
 
 end implement main
 
