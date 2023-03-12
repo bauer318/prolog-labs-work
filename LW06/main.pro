@@ -23,6 +23,8 @@ domains
     список_фильмов = название*.
 
     charlist = char*.
+    stringlist = string*.
+    integerlist = integer*.
 class facts
     кинотеатр:(код_кт,название,адрес,телефон,кол_во_мест).
     кинофильм:(код_кф,название,год_выпуска,режиссер,число_серий).
@@ -51,6 +53,13 @@ class predicates
     удалить:(string, string, char)nondeterm (i,o,i).
     получить_список_фильмов:(список_кодов_фильмов,список_фильмов) nondeterm (i,o).
     поиск_название_фильмов_по_маске:(string,список_фильмов) nondeterm (i,i).
+    длина_строки:(string,integer) nondeterm (i,o).
+    count_chars_in_list:(charlist,integer,integer) nondeterm (i,i,o).
+    string_word:(string,stringlist) nondeterm anyflow.
+    string_length:(stringlist,integerlist) nondeterm (i,o).
+    наибольшее:(integer, integer, integer) nondeterm (i, i, o).
+    find_max_in_list:(integerlist,integer,integer) nondeterm (i,i,o).
+    find_string:(stringlist,integer) nondeterm (i,i).
 
 /*Определение отношениий с помощью фактов*/
 clauses
@@ -93,6 +102,38 @@ clauses
                                                string_list(String,LS),
                                                string_list(Maska,LM),
                                                search_chars_in_charlist(LS,LM).
+
+    длина_строки(String,Len):-string_list(String,LS),
+                                              count_chars_in_list(LS,0,Len).
+
+
+    count_chars_in_list([],Lin,Lout):-Lout=Lin,!.
+    count_chars_in_list([_|T],Length,OutL):-Len = Length+1,
+                                                    count_chars_in_list(T,Len,OutL).
+
+    string_word(S,[H|T]):-frontToken(S,H,S1),!,
+                                    string_word(S1,T).
+    string_word(_,[]).
+
+    string_length([X|T],[L|Z]):-длина_строки(X,L),
+                                          string_length(T,Z).
+    string_length([],[]):-!.
+
+    наибольшее(X, Y, X):- X>Y.
+	наибольшее(X, Y, Y):- X<=Y.
+
+    find_max_in_list([],N,N2):-N2=N.
+    find_max_in_list([X|T],N,N2):-наибольшее(N,X,Nout),
+                                        find_max_in_list(T,Nout,N2).
+
+    find_string([],_):-!.
+    find_string([X|T],N):-длина_строки(X,Nout),
+                                 N=Nout,nl,
+                                 write(X),nl,
+                                 find_string(T,N).
+    find_string([X|T],N):-длина_строки(X,Nout),
+                                 not(N=Nout),
+                                 find_string(T,N).
 
 
     %поиск символ в список символов
@@ -169,11 +210,11 @@ clauses
                                                                                       findall(Idkf,показывает(Idkt,Idkf,_,_,_),List),
                                                                                       вывод_список_фильмов(List),
                                                                                       получить_список_фильмов(List,ListFilmName),
-                                                                                      поиск_название_фильмов_по_маске("ame of th nGsr",ListFilmName).
+                                                                                      поиск_название_фильмов_по_маске("ikNat",ListFilmName).
 
     вывод_список_фильмов([]):-nl.
     вывод_список_фильмов([X|T]):-кинофильм(X,Film,_,_,_),
-                                                 write("  ",Film),nl,
+                                                 write(Film),nl,
                                                  вывод_список_фильмов(T).
 
     комп_в_множ([X1],[X1]):-!.
@@ -205,8 +246,14 @@ clauses
 
 
 clauses
-    run():-p(),!.
-    run():-p2(1),!.
+    /*run():-p(),!.
+    run():-p2(1),!.*/
+    run():-string_word("Je donnes mon travail au professeur",List),
+    string_length(List,ListLen),
+    write(ListLen),
+    find_max_in_list(ListLen,0,N),nl,
+    write("максимальная длина ",N),nl,
+    find_string(List,N),nl,!.
     run().
 
 end implement main
