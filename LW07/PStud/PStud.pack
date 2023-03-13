@@ -1,0 +1,10 @@
+﻿#include @"PStud\PStud.ph"
+
+% privately used packages
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"PStud\CStud.pro"

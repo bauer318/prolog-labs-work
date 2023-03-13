@@ -1,0 +1,15 @@
+﻿#include @"PStud2\PStud2.ph"
+
+#requires @"PStud2\FStud2.frm"
+% privately used packages
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"PStud2\CStud2.pro"
+#include @"PStud2\FStud2.pro"
