@@ -1,0 +1,16 @@
+﻿#include @"PCinemas\PCinemas.ph"
+
+#requires @"PCinemas\FCinemas.frm"
+% privately used packages
+#include @"pfc\stream\stream.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"PCinemas\CCinemas.pro"
+#include @"PCinemas\FCinemas.pro"
